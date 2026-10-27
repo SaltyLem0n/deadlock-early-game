@@ -1,0 +1,2 @@
+pixelarticons 2.4.2
+Source: {'url': 'git+https://github.com/halfmage/pixelarticons.git', 'type': 'git'}
