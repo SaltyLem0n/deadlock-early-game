@@ -1,6 +1,8 @@
 # Wiki UI redesign verification
 
-Local verification: 28 October 2026 (Asia/Bangkok).
+Local and public verification: 28 October 2026 (Asia/Bangkok).
+
+Application revision verified: `25a0172ab060a242077387036e917422fb738ebe`. Later documentation-only commits do not change the application assets verified below.
 
 ## Scope and preservation
 
@@ -39,6 +41,19 @@ All 242 files in the source extraction match their before-edit hashes. The four 
 
 ## Publication and downloads
 
-Pending the redesign's public deployment and final download verification. The existing public destination is https://saltylem0n.github.io/deadlock-early-game/ and repository is https://github.com/SaltyLem0n/deadlock-early-game.
+- Public site: https://saltylem0n.github.io/deadlock-early-game/
+- Existing repository: https://github.com/SaltyLem0n/deadlock-early-game
+- GitHub Pages reported the application revision built successfully. The corresponding [Pages workflow](https://github.com/SaltyLem0n/deadlock-early-game/actions/runs/40611284328) completed successfully.
+- Anonymous requests checked 238 public files (8,342,550 bytes), covering all 225 assets, five stylesheets, HTML/JavaScript, downloads and published documentation/provenance. Every response was HTTP 200 and matched its local source, preserving vendor bytes exactly and normalizing authored text line endings where appropriate.
+- The canonical public homepage opened in the browser without login and displayed the redesigned wiki shell, seven sections, 12 references and loaded Inter/Valve Occult fonts.
+- On the public site, all seven sidebar links produced the correct fragment/focus. Appearance controls worked with Enter and Space; reference search/clear and cutoff selection worked. The phone menu, fixed header and section visibility were verified at 390 CSS pixels with no page overflow.
+- Both files downloaded successfully through the in-app browser and the saved copies matched the source bytes. The proposal also matches the supplied original Word document.
+
+| Download | SHA-256 |
+| --- | --- |
+| Proposal DOCX | `306624dc481f8848a7f5cba602f331390828f6e96feb0fe11c5515c92e79f199` |
+| Research design notes | `2beeefb2eaecf42195f5ac5f94f1c2829d0c2de8d6ad8773c37aaf587600f9ef` |
+
+All static asset and download paths work beneath the repository's `/deadlock-early-game/` prefix. The final preview was captured from the canonical live homepage in dark, constrained-width mode.
 
 This record verifies the website, not completion of the academic research or experimental validity.
