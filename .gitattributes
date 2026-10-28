@@ -1,3 +1,6 @@
 * text=auto eol=lf
 *.ttf -text
 *.docx -text
+assets/** -text
+styles/0*.css -text
+ui-asset-manifest.json -text

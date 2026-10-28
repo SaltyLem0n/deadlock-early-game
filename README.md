@@ -1,36 +1,40 @@
-# Deadlock Research Terminal
+# Deadlock Research
 
-A buildless ICT324 research showcase intended for GitHub Pages. All research status is explicitly distinguished from completed empirical work.
+A static ICT324 research showcase using the extracted Deadlock Wiki brown UI, adapted for the project and for phones.
+
+- Website: https://saltylem0n.github.io/deadlock-early-game/
+- Repository: https://github.com/SaltyLem0n/deadlock-early-game
 
 ## Run locally
 
-Serve this folder using a static HTTP server, for example `python -m http.server 4173`. Open the printed URL. There is no package installation or build step.
+Serve this folder with a static HTTP server, for example `python -m http.server 4173`. There is no package installation or build step.
 
-## Update content
+## Structure and content updates
 
-`index.html` is the single source for project content, including the team, update date, progress entries, reference list and deliverable states. `app.js` implements optional CRT effects, mobile navigation, a cutoff explainer and reference filtering. `styles.css` contains design and responsive rules.
+- `index.html`: the seven research sections, real progress entries, dates, reference list and deliverable status.
+- `styles/01-vector.css` through `styles/04-templates.css`: unchanged captured wiki stylesheets. Avoid editing these vendor files.
+- `styles/research.css`: project branding, research components, accessibility adjustments and responsive layouts.
+- `app.js`: theme and width controls, mobile menu, reference searches, cutoff explanations and active navigation.
+- `assets/`: the 225 captured local UI assets, retained with their original filenames and bytes.
+- `ui-asset-manifest.json`: original asset/source provenance.
+- `files/`: proposal DOCX and research design notes. These are planning documents, not a final paper or dataset.
+- `ATTRIBUTION.md`: UI source and ownership notices.
+- `QA_REPORT.md`: actual verification and its limits.
 
-- Team names and student IDs are omitted at the user's request. Add only verified identities if the user later requests publication.
-- Update the visible `<time>` date and its `datetime` attribute after actual content changes, using Asia/Bangkok.
-- Add real progress entries with done/stuck/next evidence; do not backdate invented activity.
-- Replace pending dataset/results sections only after verifying research artifacts.
-- The course requires three algorithms. XGBoost remains conditional in the proposal until confirmed.
-- Add final paper/slides/code/data links only once those files exist. The DOCX download is a proposal.
-- Reference IDs must remain stable because text citations link to them. Update the reference count in HTML if the bibliography changes; the filter derives its own count at runtime.
-- If adding cutoff stages, update both the static fallback text and the explanatory stage content in `app.js`.
+Default appearance is brown/dark with constrained width. Light mode and full-width mode are user-selectable. Phone layouts use a fixed header, collapsible section menu, stacked panels and independently scrolling wide tables. Width switching is hidden on phones where the layout already uses the available width.
 
-## Publish
+The earlier terminal styling, pixel fonts and CRT controls have been removed. Two project accessibility adjustments strengthen muted text and darken light-mode links on raised panels while preserving the original default brown/green appearance.
 
-Repository: https://github.com/SaltyLem0n/deadlock-early-game. Public project URL: https://saltylem0n.github.io/deadlock-early-game/. The site can publish directly from the repository's root on its default branch; `.nojekyll` is included. Relative asset and download paths support project URLs under `/<repository>/`.
+## Research integrity
 
-## Sources and asset licenses
+Keep the exact formal title. Team names and student IDs are omitted at the user's request. Update the last-updated date only after actual content changes, using Asia/Bangkok. Progress entries need a real date and done/stuck/next evidence.
 
-Research content: the supplied `Deadlock_Early_Game_Win_Prediction_Proposal.docx`. Course structure: page 8 of `ICT324-ProjectInfo.pdf`. The website includes 12 verified references, checked 27 October 2026.
+Do not replace pending dataset, results, final-paper, slides or research-code states without verified artifacts. The course requires at least three classifiers; XGBoost remains conditional in the proposal until confirmed or replaced. Keep reference IDs stable because citations link to them. If references change, update the visible bibliography count and its checked date only after actual verification.
 
-- Fonts: Google Fonts, Press Start 2P and VT323. Bundled SIL Open Font License notices are in `assets/fonts/`.
-- Icons: pixelarticons 2.4.2, https://github.com/halfmage/pixelarticons. MIT license is in `assets/icons/LICENSE`.
-- No official game artwork is bundled. The palette is inspired by the Hidden King; this is an independent academic project.
+## Publication
 
-## Verification
+GitHub Pages publishes the repository root from `main`; `.nojekyll` is included. Keep local asset/download URLs relative for the `/deadlock-early-game/` project prefix. Do not add secrets or runtime-only services to the static site.
 
-See `QA_REPORT.md` in the project workspace for the actual test record. A working website does not mean the research dataset, experiments or final paper are complete.
+## Attribution
+
+The UI source is the public Deadlock Wiki homepage capture dated 27 October 2026. The extraction in the parent workspace is retained unchanged. See `ATTRIBUTION.md` and `ui-asset-manifest.json`; do not assume the source wiki's CC BY-SA text notice licenses all images or fonts. This academic project is independent of the wiki and Valve.

@@ -1,0 +1,270 @@
+/* Project adaptations. The four extracted stylesheets remain unchanged. */
+html { scroll-behavior: auto; scroll-padding-top: 22px; }
+body.research-site { min-width: 0; --color-subtle: oklch(from var(--color-base) l c h / .75); }
+/* Slightly stronger project link contrast on the light theme's raised panels. */
+html[data-mode="light"] .research-site { --accent: #00623a; --link-color: #00623a; --color-progressive: #00623a; --link-color--hover: #004e2e; }
+.research-site #content { min-width: 0; padding: 30px 24px; }
+.research-site #bodyContent { font: 14px/1.65 Inter, sans-serif; }
+.research-site main { min-width: 0; }
+.research-site main p { margin: 0 0 1em; }
+.research-site main p:last-child { margin-bottom: 0; }
+.research-site main h1, .research-site main h2, .research-site main h3 {
+  font-family: "Valve Occult", "Retail Demo", "Open Sans", sans-serif;
+  color: var(--color-emphasized); line-height: 1.25;
+}
+.research-site main h1 { font-size: 26px; display: block; margin: 20px 0; padding: 0; border: 0; }
+.research-site main h2 { font-size: 27px; margin: 0; padding: 0; border: 0; }
+.research-site main h3 { font-size: 21px; margin: 0 0 12px; padding: 0; }
+.research-site a { overflow-wrap: anywhere; }
+.research-site a:hover { text-decoration: underline; }
+.research-site :focus-visible { outline: 2px solid var(--accent) !important; outline-offset: 3px; box-shadow: none !important; }
+.research-site [hidden] { display: none !important; }
+.sr-only, .skip-link:not(:focus) { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; }
+.skip-link:focus { position: fixed; z-index: 100; top: 8px; left: 8px; background: var(--background-color-base-3); color: var(--accent); padding: 12px; }
+.research-site button, .research-site input { font: inherit; }
+.research-site button, .research-site [role="button"] { cursor: pointer; }
+.research-site button { border: 1px solid var(--border-color-base); border-radius: 4px; background: var(--background-color-base-3); color: var(--color-base); }
+.research-site button:hover { background: var(--background-color-base-4); }
+.research-site button:active { transform: translateY(1px); }
+.mobile-bar, .menu-toggle { display: none; }
+.research-site #pt-theme-toggle a, .research-site #pt-fixedwidth-toggle a {
+  display: inline-flex; align-items: center; width: auto; height: auto; min-height: 24px;
+  padding: 0 4px; mask: none !important; background: none !important; opacity: 1;
+  font-family: Inter, sans-serif; font-size: 12px;
+}
+.research-site #pt-theme-toggle a::before, .research-site #pt-fixedwidth-toggle a::before { content: none; }
+.research-site #p-search { margin-right: 0; }
+.research-site #right-navigation { display: flex; align-items: flex-end; }
+#project-search { display: flex; align-items: center; width: 240px; height: 32px; border: 1px solid var(--border-color-subtle); background: var(--background-color-base-subtle); }
+#project-search input { width: 100%; min-width: 0; border: 0; background: transparent; color: var(--color-base); padding: 6px 9px; font-size: 12px; }
+#project-search button { border: 0; background: transparent; font-size: 24px; line-height: 1; padding: 0 8px; height: 30px; }
+.research-site #p-logo { height: 145px; margin-bottom: 12px; }
+.research-site #p-logo .project-wordmark { height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; color: var(--color-emphasized) !important; text-decoration: none !important; }
+.project-wordmark span { font: 34px/1 "Valve Occult", "Retail Demo", sans-serif; }
+.project-wordmark strong { font: 30px/1.15 "Valve Occult", "Retail Demo", sans-serif; }
+.project-wordmark small { font: 8px/1.5 Inter, sans-serif; letter-spacing: .09em; margin-top: 9px; }
+.source-button { display: block; padding: 7px 5px; margin-bottom: 10px; text-align: center; border: 1px solid var(--border-color-base); border-radius: 4px; background: var(--background-color-base-3); font: 600 12px/1.4 Inter, sans-serif; }
+.research-site #mw-panel h2 { font: 700 14px/1.3 Inter, sans-serif; color: var(--color-base); border: 0; margin: 0 0 5px; padding: 4px; background: var(--background-color-base-subtle); }
+.research-site #mw-panel .vector-menu-heading { display: block; }
+.research-site #mw-panel .vector-menu-content { padding-top: 4px; }
+.research-site #site-nav { padding: 0; margin: 0; list-style: none; }
+.research-site #site-nav a { display: block; padding: 5px 4px; font-size: 13px; line-height: 1.4; }
+.research-site #site-nav a[aria-current="location"] { background: var(--background-color-base-3); color: var(--accent); font-weight: 700; }
+.sidebar-panel { border: 1px solid var(--background-color-base-border); background: var(--background-color-base); padding: 5px; margin-top: 10px; font: 12px/1.5 Inter, sans-serif; }
+.sidebar-panel p { margin: 7px 4px; }
+.sidebar-panel > a { display: inline-block; margin: 0 4px 5px; }
+.research-site .mp-container { max-width: 1250px; margin: 0 auto; }
+.mp-header-container { display: flex; flex-wrap: wrap; align-items: center; gap: 20px; }
+.mp-header-left { flex: 1 1 360px; min-width: 0; }
+.mp-header-right { flex: 1 1 270px; min-width: 0; }
+.research-site .mp-header-title { font: 700 46px/1.1 "Valve Occult", "Retail Demo", "Open Sans", sans-serif; color: var(--color-emphasized); margin: 5px 0 12px; }
+.research-site .mp-header-text { line-height: 1.5; margin: 0; }
+.stage-badges { display: flex; flex-wrap: wrap; gap: 9px; margin-bottom: 13px; }
+.research-site .research-stage { background: var(--background-color-base-5); color: var(--color-emphasized); font: 24px/1.2 "Valve Occult", sans-serif; padding: 5px 10px; min-width: 96px; text-align: center; }
+.study-status { color: var(--color-subtle); font-size: 12px; }
+.top-content-container { display: flex; gap: 10px; align-items: stretch; }
+.top-left-container, .top-right-container { flex: 1; min-width: 0; }
+.research-nav-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 5px; }
+.home-quick-links { display: grid; grid-template-columns: 1fr 1fr; gap: 5px; margin-top: 5px; }
+.home-quick-links a { background: var(--background-color-base-3); border-radius: 4px; padding: 8px; font-size: 12px; font-weight: 600; text-align: center; }
+.research-nav-tile { background: var(--background-color-base-3); border-radius: 4px; overflow: hidden; display: flex; flex-direction: column; text-align: center; font-weight: 700; color: var(--accent); text-decoration: none !important; }
+.research-nav-tile > div { flex: 1; min-height: 84px; background: var(--background-color-base-5); display: grid; place-items: center; padding: 4px; }
+.research-nav-tile img { width: 100%; height: 95px; object-fit: contain; }
+.research-nav-tile > span { display: block; padding: 5px; line-height: 1.6; }
+.research-nav-tile:hover { background: var(--background-color-base-4); }
+.research-site .research-update-panel { display: block; height: auto; border-radius: 4px; background: var(--background-color-base-3); overflow: hidden; }
+.update-heading { background: var(--background-color-base-2); text-align: center; padding: 6px 10px; font-weight: 700; }
+.update-heading time { color: var(--accent); }
+.update-body { padding: 20px; }
+.research-site .update-body h2 { font-size: 25px; border-bottom: 1px solid var(--border-color-subtle); padding-bottom: 7px; margin-bottom: 16px; }
+.research-site .update-body h3 { font-size: 19px; margin: 16px 0 7px; }
+.update-body ul { padding-left: 20px; margin: 0; }
+.home-downloads { display: flex; align-items: flex-start; flex-direction: column; gap: 9px; margin-top: 20px; }
+.research-button, .small-button { display: inline-flex; align-items: center; justify-content: center; padding: 8px 12px; background: var(--background-color-base-4); border: 1px solid var(--border-color-base); color: var(--accent); border-radius: 4px; font-weight: 600; }
+.research-button:hover { background: var(--background-color-base-5); }
+.home-summary { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 5px; margin-top: 10px; }
+.home-summary > div { padding: 15px; background: var(--background-color-base-3); border-radius: 4px; }
+.research-site .home-summary h2 { font-size: 20px; margin-bottom: 9px; }
+.research-site .home-summary p { font-size: 13px; line-height: 1.55; }
+.section:not(.home-section) { border-top: 1px solid var(--border-color-subtle); margin-top: 32px; padding-top: 28px; scroll-margin-top: 20px; }
+.section-heading { display: flex; align-items: center; gap: 12px; margin-bottom: 20px; }
+.section-index { color: var(--accent); background: var(--background-color-base-3); font: 24px/1 "Valve Occult", sans-serif; padding: 8px; border-radius: 4px; }
+.research-site .eyebrow { color: var(--color-subtle); font: 600 10px/1.5 Inter, sans-serif; letter-spacing: .07em; margin: 0 0 5px; }
+.section-intro { max-width: 1000px; font-size: 15px; }
+.card-grid { display: grid; gap: 10px; margin: 20px 0; }
+.three { grid-template-columns: repeat(3,minmax(0,1fr)); }
+.two { grid-template-columns: repeat(2,minmax(0,1fr)); }
+.card { padding: 20px; background: var(--background-color-base-3); border-radius: 4px; min-width: 0; }
+.highlight-card { background: var(--background-color-base-4); }
+.card-label, .small-label { display: block; font: 600 10px/1.6 Inter, sans-serif; letter-spacing: .04em; color: var(--color-subtle); margin-bottom: 12px; }
+.caption { font-size: 12px; color: var(--color-subtle); line-height: 1.7; margin-top: 15px !important; }
+.note { padding: 16px 20px; background: var(--background-color-base-2); border-left: 3px solid var(--border-color-base); border-radius: 4px; margin: 20px 0; }
+.note .small-label { margin-bottom: 8px; }
+.data-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.text-link { display: block; margin-top: 10px; }
+.data-facts { display: grid; grid-template-columns: 1fr 1fr; gap: 5px; }
+.data-facts > div { padding: 18px; background: var(--background-color-base-3); border-radius: 4px; display: flex; flex-direction: column; justify-content: center; gap: 7px; }
+.data-facts > div:last-child { grid-column: 1 / -1; }
+.data-facts > div > span:last-child { font-size: 10px; color: var(--color-subtle); }
+.metric-number { font: 32px/1.1 "Valve Occult", sans-serif; white-space: nowrap; color: var(--color-emphasized); }
+.data-facts strong { font-size: 16px; }
+.table-wrap { overflow-x: auto; border: 1px solid var(--border-color-subtle); border-radius: 4px; margin: 20px 0; }
+.table-wrap table { border-collapse: collapse; min-width: 650px; width: 100%; margin: 0; font-size: 13px; }
+.table-wrap caption { text-align: left; padding: 10px 14px; background: var(--background-color-base-3); font-size: 12px; font-weight: 600; }
+.table-wrap th, .table-wrap td { border: 1px solid var(--border-color-subtle); padding: 11px 14px; text-align: left; vertical-align: top; }
+.table-wrap th { background: var(--background-color-base-3); font-weight: 600; }
+.table-wrap td { background: var(--background-color-base-2); }
+.workflow { margin-top: 24px; }
+.workflow ol { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 10px; list-style: none; padding: 0; margin: 0; }
+.workflow li { background: var(--background-color-base-3); padding: 14px; border-radius: 4px; font-size: 12px; }
+.workflow li > span { display: block; font: 22px "Valve Occult", sans-serif; color: var(--accent); margin-bottom: 7px; }
+.panel-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; border-bottom: 1px solid var(--border-color-subtle); padding-bottom: 12px; margin-bottom: 17px; }
+.panel-heading .small-label { margin: 0; }
+.panel-heading > span:last-child { font-size: 10px; color: var(--color-subtle); }
+.cutoff-controls { display: flex; gap: 8px; margin-bottom: 20px; }
+.cutoff-button { padding: 8px 17px; font-weight: 600 !important; }
+.research-site .cutoff-button[aria-pressed="true"] { color: var(--background-color-base); background: var(--accent); border-color: var(--accent); }
+.cutoff-explorer .caption { padding-top: 13px; border-top: 1px solid var(--border-color-subtle); }
+.requirement-note { font-size: 12px; border-left: 3px solid var(--accent); padding: 10px 15px; background: var(--background-color-base-2); }
+.feature-compare { display: flex; align-items: center; gap: 12px; font-size: 10px; justify-content: space-between; background: var(--background-color-base-2); padding: 10px; border-radius: 4px; margin-top: 16px; }
+.metric-list { display: flex; flex-wrap: wrap; gap: 7px; margin: 20px 0 0; }
+.metric-list a { background: var(--background-color-base-3); border-radius: 4px; padding: 7px 12px; font-size: 11px; font-weight: 600; }
+.log-entry { display: grid; grid-template-columns: 105px 1fr; border-radius: 4px; overflow: hidden; background: var(--background-color-base-3); margin: 15px 0; }
+.log-date { padding: 18px; background: var(--background-color-base-2); font: 21px/1.25 "Valve Occult", sans-serif; }
+.log-date .small-label { font-size: 8px; margin-top: 12px; }
+.log-content { padding: 18px 20px; }
+.log-content dl { margin: 0; }
+.log-content dl > div { display: grid; grid-template-columns: 48px 1fr; gap: 10px; margin-top: 10px; }
+.log-content dt { font-size: 10px; font-weight: 600; color: var(--color-subtle); }
+.log-content dd { font-size: 13px; margin: 0; }
+.milestones { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 10px; margin-top: 20px; }
+.milestones > div { background: var(--background-color-base-2); border-radius: 4px; padding: 15px; }
+.milestones > div > span { font-weight: 700; color: var(--accent); }
+.milestones p { font-size: 12px; margin-top: 8px !important; }
+.results-empty .small-label { color: var(--accent); }
+.file-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 10px; }
+.file-card { display: flex; align-items: center; justify-content: space-between; gap: 15px; background: var(--background-color-base-3); padding: 18px; border-radius: 4px; text-decoration: none !important; }
+a.file-card:hover { background: var(--background-color-base-4); }
+.file-card strong { display: block; font-weight: 600; color: var(--color-emphasized); }
+.file-card small { display: block; margin-top: 5px; font-size: 11px; color: var(--color-subtle); }
+.file-state { font-size: 10px; white-space: nowrap; }
+.pending { color: var(--color-subtle); }
+.reference-panel { background: var(--background-color-base-3); border-radius: 4px; padding: 20px; margin: 25px 0 15px; }
+.reference-input { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
+.reference-input > span { display: none; }
+#reference-search { flex: 1; width: 100%; min-width: 0; border: 1px solid var(--border-color-base); border-radius: 4px; background: var(--background-color-base-2); color: var(--color-base); padding: 9px 10px; }
+.reset-filter { border: 0 !important; background: none !important; padding: 8px; text-decoration: underline; }
+.reference-panel p { font-size: 11px; color: var(--color-subtle); margin-bottom: 4px !important; }
+.references { list-style: none; padding: 0; margin: 0; }
+.references li { display: flex; gap: 15px; padding: 17px 3px; border-bottom: 1px solid var(--border-color-subtle); scroll-margin-top: 25px; }
+.ref-number { font-size: 11px; color: var(--color-subtle); padding-top: 2px; }
+.ref-topic { display: block; font-size: 9px; color: var(--color-subtle); margin-bottom: 4px; }
+.references li > div { min-width: 0; }
+.references li a { font-weight: 600; font-size: 13px; }
+.references li p { font-size: 12px; color: var(--color-subtle); margin-top: 5px !important; }
+.research-site #footer { font: 11px/1.6 Inter, sans-serif; }
+.research-site #footer li { color: var(--color-subtle); }
+.no-js .cutoff-controls, .no-js #reference-filter, .no-js #project-search { display: none; }
+@media (max-width: 1100px) {
+  .research-site #p-search { width: 195px; }
+  #project-search { width: 195px; }
+  .research-site #p-views { display: none; }
+  .three { grid-template-columns: 1fr; }
+  .mp-header-left { flex-basis: 100%; }
+  .mp-header-right { flex-basis: 100%; }
+  .stage-badges { margin-bottom: 8px; }
+}
+@media (max-width: 800px) {
+  .research-site #mw-page-base, .research-site #mw-head-base { display: none; }
+  html { --fixed-width: 100% !important; scroll-padding-top: 165px; }
+  body.research-site { width: 100%; max-width: 100%; padding: 0; }
+  .research-site #content { margin: 0 !important; padding: calc(var(--header-height, 140px) + 22px) 16px 22px; border: 0; width: 100%; box-sizing: border-box; }
+  .research-site #mw-head { position: fixed; top: 0; z-index: 40; width: 100%; height: auto; display: flex; flex-wrap: wrap; padding: 10px 14px; gap: 7px; background: var(--background-color-base); border-bottom: 1px solid var(--border-color-subtle); box-sizing: border-box; }
+  .research-site #mw-head { order: 0; }
+  .research-site { display: flex; flex-direction: column; }
+  .research-site #content { order: 1; }
+  .research-site #mw-panel { order: 2; }
+  .research-site #footer { order: 3; }
+  .mobile-bar { display: flex; width: 100%; align-items: center; justify-content: space-between; gap: 12px; }
+  .mobile-brand { font: 25px/1.2 "Valve Occult", sans-serif; color: var(--color-emphasized) !important; text-decoration: none !important; }
+  .js .menu-toggle { display: inline-flex; align-items: center; padding: 8px 10px; font-size: 12px; min-height: 40px; }
+  .research-site #p-personal { position: static; margin: 0; width: auto; order: 2; flex: 1; }
+  .research-site #p-personal .vector-menu-content-list { display: flex; gap: 12px; flex-wrap: wrap; }
+  .research-site #p-personal li { margin: 0; }
+  .research-site #pt-theme-toggle a { padding: 5px 0; min-height: 30px; }
+  .research-site #pt-fixedwidth-toggle { display: none; }
+  .research-site #left-navigation { float: none; margin: 0; order: 1; width: 100%; height: 32px; }
+  .research-site #p-associated-pages { height: 32px; }
+  .research-site #p-associated-pages li, .research-site #p-associated-pages a { height: 32px; line-height: 32px; }
+  .research-site #p-associated-pages a { padding: 0 12px; }
+  .research-site #right-navigation { float: none; margin: 0; order: 3; width: 100%; }
+  .research-site #p-search, #project-search { margin: 0; width: 100%; box-sizing: border-box; }
+  #project-search input { font-size: 16px; }
+  .research-site #mw-panel { display: none; position: fixed; top: var(--header-height, 170px); left: 0; width: 100%; padding: 14px 16px 20px; max-height: calc(100dvh - var(--header-height, 170px)); overflow-y: auto; box-sizing: border-box; z-index: 35; background: var(--background-color-base); border-bottom: 1px solid var(--border-color-base); }
+  .research-site.menu-open #mw-panel { display: block; }
+  .research-site #mw-panel #p-logo { display: none; }
+  .research-site #mw-panel .sidebar-panel { display: none; }
+  .research-site #site-nav { display: grid; grid-template-columns: 1fr 1fr; gap: 5px; }
+  .research-site #site-nav a { padding: 10px; min-height: 42px; box-sizing: border-box; }
+  .source-button { padding: 10px; }
+  .research-site #footer { margin: 0; padding: 20px 16px; width: 100%; box-sizing: border-box; }
+  .top-content-container { flex-direction: column; }
+  .research-nav-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .research-nav-tile img { height: 90px; }
+  .home-summary, .data-layout, .two, .file-grid { grid-template-columns: 1fr; }
+  .research-site .mp-header-title { font-size: 40px; }
+  .research-site main h1 { font-size: 24px; }
+  .research-site main h2 { font-size: 25px; }
+  .section:not(.home-section) { scroll-margin-top: 10px; }
+  .references li { scroll-margin-top: 15px; }
+  .workflow ol { grid-template-columns: 1fr 1fr; }
+  .reference-input { flex-wrap: wrap; }
+  #reference-search { flex-basis: 100%; }
+  .references li { gap: 10px; }
+  .log-entry { grid-template-columns: 85px 1fr; }
+  .log-date { padding: 15px 12px; }
+  .log-content { padding: 15px; }
+  .log-content dl > div { grid-template-columns: 1fr; gap: 3px; }
+  .milestones { gap: 5px; }
+  .milestones > div { padding: 12px; }
+  .milestones p { font-size: 11px; }
+  .panel-heading { align-items: flex-start; flex-direction: column; }
+  .cutoff-button { padding: 9px 15px; min-height: 40px; }
+  .no-js .research-site #mw-panel { display: block; position: static; }
+  .research-site #left-navigation { display: none; }
+  .research-site #p-personal { order: 1; flex: 0 0 100%; height: auto; padding: 0; background: transparent; border: 0; }
+  .research-site #p-personal .vector-menu-heading { display: none; }
+  .research-site #p-personal .vector-menu-content { padding: 0; }
+  .research-site #p-personal .vector-menu-content-list { justify-content: flex-end; align-items: center; flex-wrap: nowrap; }
+  .research-site #pt-theme-toggle a { min-height: 25px; padding: 0; }
+  .research-site #right-navigation { order: 2; }
+}
+@media (max-width: 380px) {
+  .research-site #content { padding: calc(var(--header-height, 150px) + 20px) 12px 20px; }
+  .mobile-brand { font-size: 22px; white-space: nowrap; }
+  .js .menu-toggle { font-size: 0; min-width: 42px; padding: 8px; }
+  .menu-toggle::before { content: "☰"; font-size: 20px; }
+  .research-site main h1 { font-size: 22px; }
+  .card, .update-body, .reference-panel { padding: 16px; }
+  .stage-badges { gap: 6px; }
+  .research-site .research-stage { font-size: 20px; min-width: 0; padding: 5px 8px; }
+  .data-facts { grid-template-columns: 1fr; }
+  .data-facts > div:last-child { grid-column: auto; }
+  .log-entry { grid-template-columns: 1fr; }
+  .log-date { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+  .log-date br { display: none; }
+  .log-date .small-label { margin: 0; }
+  .milestones { grid-template-columns: 1fr; }
+  .milestones br { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .research-site *, .research-site *::before, .research-site *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}
+@media print {
+  .research-site #mw-head, .research-site #mw-panel, .skip-link, .research-nav-grid, .reference-panel, .cutoff-controls { display: none !important; }
+  .research-site #content { margin: 0 !important; padding: 0; }
+  .research-site { display: block; background: white !important; color: black; }
+  .table-wrap { overflow: visible; }
+  .table-wrap table { min-width: 0; }
+  .card, .log-entry, .file-card { break-inside: avoid; }
+}

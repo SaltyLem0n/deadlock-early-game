@@ -1,0 +1,1604 @@
+{
+  "source": "https://deadlock.wiki/",
+  "captured_at_utc": "2026-10-27T07:17:01.983553+00:00",
+  "scope": "Public desktop homepage UI and all directly referenced stylesheet/image/font assets",
+  "source_revision": 194398,
+  "modifications": [
+    "Local asset URLs",
+    "Inline styles collected into templates stylesheet",
+    "Original scripts and event handlers removed",
+    "Local preview theme and width toggles",
+    "Wiki links and search use original public site"
+  ],
+  "stylesheets": [
+    {
+      "path": "styles/01-vector.css",
+      "source": "https://deadlock.wiki/load.php?lang=en&modules=ext.embedVideo.styles%7Cext.visualEditor.desktopArticleTarget.noscript%7Cskins.vector.search.codex.styles%7Cskins.vector.styles.legacy&only=styles&skin=vector"
+    },
+    {
+      "path": "styles/02-gadgets.css",
+      "source": "https://deadlock.wiki/load.php?lang=en&modules=ext.gadget.DLPlateStyling%2CbrownTheme%2Cfeedback-styles%2CfixedWidth%2CiconSelector-styles%2CrecentChanges%2Csidebar-toc-styles%2Csound-styles&only=styles&skin=vector"
+    },
+    {
+      "path": "styles/03-site.css",
+      "source": "https://deadlock.wiki/load.php?lang=en&modules=site.styles&only=styles&skin=vector"
+    }
+  ],
+  "assets": [
+    {
+      "path": "assets/d2f5863b6253-wordmark.svg",
+      "source": "https://deadlock.wiki/resources/assets/logos/wordmark.svg",
+      "bytes": 18329,
+      "sha256": "c3c636ab912b70e96976bae9e86b11e705e9a5bbf98965a41bffe4d48ad7cc76",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/493dcc1401ed-logo_1x.png",
+      "source": "https://deadlock.wiki/resources/assets/logos/logo_1x.png?2d64a",
+      "bytes": 18910,
+      "sha256": "a3635d3119f7a75a34e1bf8d0d17b1e1426e9626f1a9c5848bbe55dc31ddf8ec",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/5ade680afe0b-magnify-clip-ltr.svg",
+      "source": "https://deadlock.wiki/resources/src/mediawiki.skinning/images/magnify-clip-ltr.svg?8330e",
+      "bytes": 305,
+      "sha256": "78f5ef3e585b3073c58b955ace7c662e51ee29bb2ff4ef4b0769bc46e8d7110c",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/760c2c030e27-magnify-clip-rtl.svg",
+      "source": "https://deadlock.wiki/resources/src/mediawiki.skinning/images/magnify-clip-rtl.svg?38fd5",
+      "bytes": 305,
+      "sha256": "d4325f0834c822c64efacd2b1ec096331587a6ecba5913776cbf5c600b83747f",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/ac86897d91ab-logo_2x.png",
+      "source": "https://deadlock.wiki/resources/assets/logos/logo_2x.png?1d708",
+      "bytes": 41969,
+      "sha256": "b71369d0109da7b2f42387cae20365e4d10b9b3f30def46599340567bd55f75d",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/f3b05e49989e-arrow-down.svg",
+      "source": "https://deadlock.wiki/skins/Vector/resources/skins.vector.styles.legacy/images/arrow-down.svg?f88ee",
+      "bytes": 220,
+      "sha256": "4ba7cca33f4c3079aed44613246e43c5fac1f2bde1260ef67338b6013351c977",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/a61820b89343-bullet-icon.svg",
+      "source": "https://deadlock.wiki/skins/Vector/resources/skins.vector.styles.legacy/images/bullet-icon.svg?d4515",
+      "bytes": 159,
+      "sha256": "6b2ae95e88a82be06108353d7174b1f9c18dd629e3aba1d149afcb39795335a4",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/48e8d01d58d9-link-external-small-ltr-progressive.svg",
+      "source": "https://deadlock.wiki/skins/Vector/resources/skins.vector.styles.legacy/images/link-external-small-ltr-progressive.svg?fb64d",
+      "bytes": 298,
+      "sha256": "b324430a72a978ffc29853c1dbb95679833c58b30e5b5d10e5063f96f98c5ba2",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/9d9308cb9c0e-search.svg",
+      "source": "https://deadlock.wiki/skins/Vector/resources/skins.vector.styles.legacy/images/search.svg?a45d6",
+      "bytes": 250,
+      "sha256": "c0ae4f598074ae9b13c00020c4f6a8929a4c8069f629087b659d74e79526c25d",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/3f05b457799b-unwatch-icon.svg",
+      "source": "https://deadlock.wiki/skins/Vector/resources/skins.vector.styles.legacy/images/unwatch-icon.svg?75797",
+      "bytes": 505,
+      "sha256": "c39d035e0eaf30ddd811215b6bc023bc91defc8f0fb16fb4dbe65ef731ac8309",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/c38b9028b812-unwatch-temp-icon.svg",
+      "source": "https://deadlock.wiki/skins/Vector/resources/skins.vector.styles.legacy/images/unwatch-temp-icon.svg?6e0c5",
+      "bytes": 674,
+      "sha256": "5ead3b167231d6f875a772be29fa41ccfdadd68fa5991b0aeec0cc191d80a71e",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/3da610903447-watch-icon.svg",
+      "source": "https://deadlock.wiki/skins/Vector/resources/skins.vector.styles.legacy/images/watch-icon.svg?6ab6f",
+      "bytes": 252,
+      "sha256": "ee9e07a7d98e7d6f2313ffc9e444a66b330a203060e2b4c5018f3db33ed789a5",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/215bbd26cb8d-unwatch-icon-hl.svg",
+      "source": "https://deadlock.wiki/skins/Vector/resources/skins.vector.styles.legacy/images/unwatch-icon-hl.svg?72bac",
+      "bytes": 523,
+      "sha256": "f87a93a308a7c95b70dbdce50734dfefd678c028ef2abb8cd22dbfca6c744d80",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/e47d6a14edbd-unwatch-temp-icon-hl.svg",
+      "source": "https://deadlock.wiki/skins/Vector/resources/skins.vector.styles.legacy/images/unwatch-temp-icon-hl.svg?9a8e5",
+      "bytes": 686,
+      "sha256": "be449554ce3d136790f4d0693dafdcec1e24d39d02b9e11b6f355ccf207e3322",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/3cadd2ac2f56-watch-icon-hl.svg",
+      "source": "https://deadlock.wiki/skins/Vector/resources/skins.vector.styles.legacy/images/watch-icon-hl.svg?9bf90",
+      "bytes": 264,
+      "sha256": "04a57971450721f4be1e9a7b48ae3cc46f0abb733601fdd778b28b954b4c7868",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/24e735af34e8-user-avatar.svg",
+      "source": "https://deadlock.wiki/skins/Vector/resources/skins.vector.styles.legacy/images/user-avatar.svg?943a0",
+      "bytes": 253,
+      "sha256": "7407b58f99baf2fd87c34a5fca1ca4e13a1a3dfe343e3eca3c63f974807eca68",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/6c64349e303e-Wiki2.svg",
+      "source": "https://cdn.deadlock.wiki/Wiki2.svg",
+      "bytes": 48546,
+      "sha256": "5c026aac48cab806cd12f7d09abc766a44a6d4fa8af0c6bcd9008af2c6bf8986",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/5784c878e50f-Wiki.svg",
+      "source": "https://cdn.deadlock.wiki/Wiki.svg",
+      "bytes": 48544,
+      "sha256": "f4c880d2613d2801958ad69fb6a4f3ce6a9300c2c37904695b262da4b0ea2281",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/8ef1609291a4-Abrams.png",
+      "source": "https://cdn.deadlock.wiki/Abrams.png",
+      "bytes": 19506,
+      "sha256": "ef57ed1bc25bdd8ec61891c9c4739de4ba513d256d3ec8934751888d896f4ab2",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/5382536a28d6-Apollo.png",
+      "source": "https://cdn.deadlock.wiki/Apollo.png",
+      "bytes": 18502,
+      "sha256": "4db232527000224f6ad00ae1e9c87556a37beec335d55dbf42fcd2b8bd57578c",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/1734ad9c3365-Baba.png",
+      "source": "https://cdn.deadlock.wiki/Baba.png",
+      "bytes": 23533,
+      "sha256": "f0a7f1e115d669b1f983bc572845b5bd208112210315de3d77790688b02700f7",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/65f6d775df8e-Bebop.png",
+      "source": "https://cdn.deadlock.wiki/Bebop.png",
+      "bytes": 19803,
+      "sha256": "5568bac32e4abc5413635b0f4fc2779db1ee6450da25f1e74c5ebc0f20b4465d",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/8247194dd688-Billy.png",
+      "source": "https://cdn.deadlock.wiki/Billy.png",
+      "bytes": 24451,
+      "sha256": "2b272036224b5c3a50d950dd22b13d4088971ef32d3b4aa7a670da96ff049c8c",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/c4604bb48665-Calico.png",
+      "source": "https://cdn.deadlock.wiki/Calico.png",
+      "bytes": 16606,
+      "sha256": "6d3803c10687f0fea07f4fe2e38bc068fbe4cd4b091bf7ce8f94a69d57698382",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/90d57c1dc3ad-Celeste.png",
+      "source": "https://cdn.deadlock.wiki/Celeste.png",
+      "bytes": 22752,
+      "sha256": "26d9c6f0832dee71b4589c4664326cd4445b3f1653a1e2d75d10d26180c0e9da",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/69d0f8b07402-Deadman_Danny.png",
+      "source": "https://cdn.deadlock.wiki/Deadman_Danny.png",
+      "bytes": 22237,
+      "sha256": "9fc686bd8f76654449ad1be97098f07c5d58a10cdf6e39ea8dbc1eae085f7d14",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/3ab3fbce38f1-The_Doorman.png",
+      "source": "https://cdn.deadlock.wiki/The_Doorman.png",
+      "bytes": 20821,
+      "sha256": "07bf3bd91b1d75bb10e2aa60e46f355d59f25ca0044bbe3e8f966d978de48785",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/a0c2ed7f2068-Drifter.png",
+      "source": "https://cdn.deadlock.wiki/Drifter.png",
+      "bytes": 18393,
+      "sha256": "c7ad5207af68d12410f0c86dd5cc32865d08c84a1b2d01196cbc19e123309d8e",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/e4f4b7f9cdb4-Dynamo.png",
+      "source": "https://cdn.deadlock.wiki/Dynamo.png",
+      "bytes": 19724,
+      "sha256": "b0e13e54e2973f140ab8d2d53b1e45ac9a3c5112ac0fd00a1b55d937a17cbdc0",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/a3b0e453094d-Graves.png",
+      "source": "https://cdn.deadlock.wiki/Graves.png",
+      "bytes": 22713,
+      "sha256": "56dc4e1bb0ca3e5aa40bb4c9007b289b5fb5bcecb761fb2b1880763e83e21d4d",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/9b64f1729205-Grey_Talon.png",
+      "source": "https://cdn.deadlock.wiki/Grey_Talon.png",
+      "bytes": 22974,
+      "sha256": "84cd6c05e0f0b9a119f0b31ac1619276048822dcc0186ed099ad67c0df4dd751",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/5a9802756b46-Haze.png",
+      "source": "https://cdn.deadlock.wiki/Haze.png",
+      "bytes": 9719,
+      "sha256": "f13e364dcec715e688e571b924a3f85fabe787558b096c8f0449ff676dc09d09",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/7d95f687d84c-Holliday.png",
+      "source": "https://cdn.deadlock.wiki/Holliday.png",
+      "bytes": 21148,
+      "sha256": "5cee9a05097df64327891d67db5a9bfd433f7b38d751a1ce2dca19900d61c7bc",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/70eef5d93e4b-Infernus.png",
+      "source": "https://cdn.deadlock.wiki/Infernus.png",
+      "bytes": 21738,
+      "sha256": "65ad19b3512ee60f6cf91c04f05b74031e79af5bb870bcae6b9eb5ae5a6a04fb",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/0629cfa4d99b-Ivy.png",
+      "source": "https://cdn.deadlock.wiki/Ivy.png",
+      "bytes": 22470,
+      "sha256": "6d775a05a97193b3c54985b5313b812ab00508642e9ef466a74cc67957c3cd68",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/ad2907897b65-Kelvin.png",
+      "source": "https://cdn.deadlock.wiki/Kelvin.png",
+      "bytes": 25752,
+      "sha256": "bc15c3f2888862b7191be2427b49c6d1036bedbf5301084b73979a446b676789",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/0e59d6bf6f03-Lady_Geist.png",
+      "source": "https://cdn.deadlock.wiki/Lady_Geist.png",
+      "bytes": 24877,
+      "sha256": "d1d0da597331bd63f4c1fad8488ffec731859f0c6c0210e1d2ce8e623fd4d94b",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/dcc10e2d312c-Lash.png",
+      "source": "https://cdn.deadlock.wiki/Lash.png",
+      "bytes": 22084,
+      "sha256": "9b54a516dbfb71294c60f0a6f0959445725e9eec1d5b38fa857f0344df97a991",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/f64ada8d19b8-McGinnis.png",
+      "source": "https://cdn.deadlock.wiki/McGinnis.png",
+      "bytes": 22410,
+      "sha256": "886d4dd1362c1975dbdc986f50ec61af47654477a17f8b87d1da2e79a0d427d0",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/f3511f90bd05-Mina.png",
+      "source": "https://cdn.deadlock.wiki/Mina.png",
+      "bytes": 20666,
+      "sha256": "f33600c44afbaf27fd2ecd2b7f4c54037347f7c6e7658c6e8ccc5bec795de554",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/865dbbe8ae92-Mirage.png",
+      "source": "https://cdn.deadlock.wiki/Mirage.png",
+      "bytes": 20546,
+      "sha256": "c5182eea55f5be0a3c7ae6c33eb07100aeb8b8e69495d0fc7d2d7744af86b67c",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/d52b5edac463-Mo___Krill.png",
+      "source": "https://cdn.deadlock.wiki/Mo_%26_Krill.png",
+      "bytes": 23720,
+      "sha256": "2cab502d2d3f99e6d467d68871525a9c02ca9415738ad6936bc05f7785c7c827",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/0c8861416395-Nurse_Harrow.png",
+      "source": "https://cdn.deadlock.wiki/Nurse_Harrow.png",
+      "bytes": 24808,
+      "sha256": "fba04e62f595d42b21fe9e5814e531d2f10248fe9277ca1b64a14013e3e4d9b1",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/351dbe499564-Paige.png",
+      "source": "https://cdn.deadlock.wiki/Paige.png",
+      "bytes": 23922,
+      "sha256": "4f75d1e5dcf8208b39ac84a1d53e4777bf6ec391b24477d86496944e1570738b",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/6050b9703743-Paradox.png",
+      "source": "https://cdn.deadlock.wiki/Paradox.png",
+      "bytes": 18441,
+      "sha256": "9cca9bddc78e413b37167d8dcb801c286ff6575330f0597b1c07f61f24cb4180",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/dcf61767c1a3-Pocket.png",
+      "source": "https://cdn.deadlock.wiki/Pocket.png",
+      "bytes": 22634,
+      "sha256": "d49e5b7364714a41500d70e884f520ebadaa4a6247b11267850e9e6b5f263433",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/a485b0051748-Rat_King.png",
+      "source": "https://cdn.deadlock.wiki/Rat_King.png",
+      "bytes": 24451,
+      "sha256": "203cb48ec24a82999ce1e3f254c99ab73defcb73b892872cc6707fbb0bd7a262",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/3630d78c34e3-Rem.png",
+      "source": "https://cdn.deadlock.wiki/Rem.png",
+      "bytes": 19950,
+      "sha256": "749bc551e7e870b4c64a9a2d988f742861cb50edcde1578c2b8909e605081cff",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/07a8ca86092e-Seven.png",
+      "source": "https://cdn.deadlock.wiki/Seven.png",
+      "bytes": 18388,
+      "sha256": "6c5129bade3071e32d19761d4aaecceee950950f760b4d3899f3534641af3e8f",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/3ad524194689-Shiv.png",
+      "source": "https://cdn.deadlock.wiki/Shiv.png",
+      "bytes": 22288,
+      "sha256": "e6b73f8e0dc0df552ca8a95fc20e14453a5f976cd99f31a3c9221f1dd847712f",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/ca6817ad3cdc-Silver.png",
+      "source": "https://cdn.deadlock.wiki/Silver.png",
+      "bytes": 26719,
+      "sha256": "85e0cd95d3f744062817258d4e96a686f9361c2acc1eac11d42d2450deef6ab7",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/2461c263de80-Sinclair.png",
+      "source": "https://cdn.deadlock.wiki/Sinclair.png",
+      "bytes": 17568,
+      "sha256": "0b8d956aead21233d14589406979d2d60f82d823695e4e506d806aca1731986f",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/dc631a21b35e-Solomon.png",
+      "source": "https://cdn.deadlock.wiki/Solomon.png",
+      "bytes": 22607,
+      "sha256": "b4781037b891eb8e388a4d8177b9903f3decc883b19bfaa393f2077993b8c106",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/26951e59e696-Venator.png",
+      "source": "https://cdn.deadlock.wiki/Venator.png",
+      "bytes": 23849,
+      "sha256": "725710935886b626f1ac1497a87670b0cf000669858feb295d746f7240888897",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/dbded929a898-Victor.png",
+      "source": "https://cdn.deadlock.wiki/Victor.png",
+      "bytes": 19515,
+      "sha256": "ecff21d3a5ed6b183066504e035c52d3a7dcabb6a66e0f642a672786b7939b58",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/32b7164dace6-Vindicta.png",
+      "source": "https://cdn.deadlock.wiki/Vindicta.png",
+      "bytes": 36593,
+      "sha256": "0b1f73b478223cb3d9a9203eb3012e4c8314fde9d8c693449405753bfb31a408",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/abffca113992-Violet.png",
+      "source": "https://cdn.deadlock.wiki/Violet.png",
+      "bytes": 23963,
+      "sha256": "5cd723ebf601d1b9433c09568728277edfc2dcee600e6600e2c0272f6c6fac15",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/1b57005fd5c8-Viscous.png",
+      "source": "https://cdn.deadlock.wiki/Viscous.png",
+      "bytes": 17456,
+      "sha256": "3ab8b2ef42934bbf42ee2a3a2d62e5a28b17768563d6990db0d11aa8008cad70",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/b1c97c7971ce-Vyper.png",
+      "source": "https://cdn.deadlock.wiki/Vyper.png",
+      "bytes": 17496,
+      "sha256": "68a70f7afbd60ee2cdb38e27a8bf55fb4c623dfe983282871926d4203e1cd92c",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/3bc2be36f06d-Warden.png",
+      "source": "https://cdn.deadlock.wiki/Warden.png",
+      "bytes": 20555,
+      "sha256": "ccafec8c5c56093ede6ec595771ed9e468183fe148ce54a7a46fc2bf308cde53",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/52b0e786a159-Wraith.png",
+      "source": "https://cdn.deadlock.wiki/Wraith.png",
+      "bytes": 22265,
+      "sha256": "0710f75f9e586461de1c943221d2fba1c559c8665ec82f8ed5d6d358b7d3def0",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/67b14e0f616c-Yamato.png",
+      "source": "https://cdn.deadlock.wiki/Yamato.png",
+      "bytes": 17570,
+      "sha256": "8a055d21d15436851a07286567bf240f83685632205aa9655663b7fbfdec7f60",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/42c533aec307-Rem_helper.png",
+      "source": "https://cdn.deadlock.wiki/Rem_helper.png",
+      "bytes": 123335,
+      "sha256": "162436f6b8dab3c576e7fc20177e81f7e7de826b929ffdd870cf5c00ffadd8d0",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/3767b5d0404c-Inter-latin.woff2",
+      "source": "https://cdn.deadlock.wiki/Inter-latin.woff2",
+      "bytes": 72920,
+      "sha256": "2c295d99e26dcf357d4d01bcf270fd6924b600c9a13dd8c363ef114f4c6976fa",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/058e2ba650c8-Inter-Italic-latin.woff2",
+      "source": "https://cdn.deadlock.wiki/Inter-Italic-latin.woff2",
+      "bytes": 79716,
+      "sha256": "c58f9d530baa7e96355f444502eca739d5eefa0f328f3d635b73648373214629",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/9e7bc6eec86a-Broadway_01.jpg",
+      "source": "https://cdn.deadlock.wiki/Broadway_01.jpg",
+      "bytes": 227750,
+      "sha256": "3e72d5e69b9190ea2af3862d73bc71de1453fdc504cd449a9c69bcabb51a9b75",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/65945e9983eb-Retaildemo-regular.woff2",
+      "source": "https://cdn.deadlock.wiki/Retaildemo-regular.woff2",
+      "bytes": 4048,
+      "sha256": "3a3a0247063e9e005744aa80b25604e896722d3a850dff36a04201cab0fbc607",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/adeef71d248e-Retaildemo-bold.woff2",
+      "source": "https://cdn.deadlock.wiki/Retaildemo-bold.woff2",
+      "bytes": 3952,
+      "sha256": "e9bcc0197dac6f3bd3f8095b60e71ea1f3e04b0b0710146aa85faf597d421f3f",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/3f6e31e5c2d8-RetailDemo-Semibold.woff2",
+      "source": "https://cdn.deadlock.wiki/RetailDemo-Semibold.woff2",
+      "bytes": 5896,
+      "sha256": "342a98b49eb3ce6051f8fa3a0c2ee3f22b8c1ebe9203f839a1f26b2ca8c0c950",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/defbf3fc2a50-RetailDemo-Medium.woff2",
+      "source": "https://cdn.deadlock.wiki/RetailDemo-Medium.woff2",
+      "bytes": 5888,
+      "sha256": "7cee331d5e1593b02129251f6a661020bc6e4eefb41961ae5e985cb970085290",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/193172778564-ForevsDemo-Medium.woff2",
+      "source": "https://cdn.deadlock.wiki/ForevsDemo-Medium.woff2",
+      "bytes": 8788,
+      "sha256": "a34333dd9ee9552630a8ec70637d1449b56c5084d94fca91505ff2c67df8923d",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/a8022a4abf7d-Open_Sans.woff2",
+      "source": "https://cdn.deadlock.wiki/Open_Sans.woff2",
+      "bytes": 279080,
+      "sha256": "856a76296cae40bcac8d12b4bc57986beff469ef619aefba4ec002abb4e3714a",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/f4d8fe49bbad-Open_Sans_Italic.woff2",
+      "source": "https://cdn.deadlock.wiki/Open_Sans_Italic.woff2",
+      "bytes": 312408,
+      "sha256": "ee0eb242742cbbc50c6df313f7599feb7e4aa3ece5964948b2da006e20aea36a",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/aa9d1c291611-Radiance-SemiBold.woff2",
+      "source": "https://cdn.deadlock.wiki/Radiance-SemiBold.woff2",
+      "bytes": 42084,
+      "sha256": "0e9994765f4b38084b2dc62ed7702f0033232b26da9b78322117d270f6d95a04",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/fa444f96683f-Radiance-Bold.woff2",
+      "source": "https://cdn.deadlock.wiki/Radiance-Bold.woff2",
+      "bytes": 42276,
+      "sha256": "677a9ac21f1f2b84005f75fdae5f3e474d7ca2b161613fc1d421aa0ffea52afa",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/94ab3c2727ff-Radiance-SemiBoldItalic.woff2",
+      "source": "https://cdn.deadlock.wiki/Radiance-SemiBoldItalic.woff2",
+      "bytes": 46668,
+      "sha256": "508e0711dfc506b7522e2416387d34078bf338147099233ada621ed3343f1801",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/af2e776013df-Radiance-BoldItalic.woff2",
+      "source": "https://cdn.deadlock.wiki/Radiance-BoldItalic.woff2",
+      "bytes": 46656,
+      "sha256": "357477842f0a164c7bbdf9de88123857d1b7b1905924bb82a55e7ef6252ca8cd",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/b2aae0b5367b-Reaver-Regular.woff2",
+      "source": "https://cdn.deadlock.wiki/Reaver-Regular.woff2",
+      "bytes": 53356,
+      "sha256": "ef7a16531a885a3336bc84cdd690426265ca219fb4561042d9bd24af02e88415",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/fc2bdc313cc0-Reaver-SemiBold.woff2",
+      "source": "https://cdn.deadlock.wiki/Reaver-SemiBold.woff2",
+      "bytes": 55080,
+      "sha256": "54cbe7c4c2ac0e9c1999ca34ecaec01f13d902b0d8bf30d39a54ea013d99e6db",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/667bcdf962fe-ValveOccult-SemiBold.woff2",
+      "source": "https://cdn.deadlock.wiki/ValveOccult-SemiBold.woff2",
+      "bytes": 55920,
+      "sha256": "f73b5543aa5b5e14e6123f6e98627e15b618646fe4fd2f5cd7f7daa12f063ae7",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/1aacf4ee581f-ValvePulp-Bold.woff2",
+      "source": "https://cdn.deadlock.wiki/ValvePulp-Bold.woff2",
+      "bytes": 49104,
+      "sha256": "ac23344ed4bd3ca0d9f0bae984d19fb140e969170ce79b95c45fdbbe87dfcdf0",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/e59c8b083690-Exo-Bold.woff2",
+      "source": "https://cdn.deadlock.wiki/Exo-Bold.woff2",
+      "bytes": 33152,
+      "sha256": "70c8f279976de22caa1ea66af4cff46ac3f40bfb29cc48bd3a5e46314f0abdde",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/6218d2ff309c-Main_header.jpeg",
+      "source": "https://cdn.deadlock.wiki/Main_header.jpeg",
+      "bytes": 132369,
+      "sha256": "900c2aaf8801d9d680bc47b044f587d10eda4ca6c09b7e07fa855d246b382cb5",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/79c28d523164-Movement_header.jpg",
+      "source": "https://cdn.deadlock.wiki/Movement_header.jpg",
+      "bytes": 131956,
+      "sha256": "fbf9e2a900cec97ae383fe6e1782188972503300c5d1ad1e10561975c93c6835",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/dc93f4d24dae-Infobox_Item_BG.png",
+      "source": "https://cdn.deadlock.wiki/Infobox_Item_BG.png",
+      "bytes": 904509,
+      "sha256": "639e42e2851a5b67f69fba87e5219f614c3d77d5852618a9d1c42cfcfc911d92",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/dc418e16aa9d-Discord-Symbol-White.svg",
+      "source": "https://cdn.deadlock.wiki/Discord-Symbol-White.svg",
+      "bytes": 1237,
+      "sha256": "de4cc484cdc0e3a8f3a58a84b0c80c5ac8acefeebf730930545ff3b279b5d0a3",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/b0b97ec79d5d-Poweredby-mediawiki-white.svg",
+      "source": "https://cdn.deadlock.wiki/Poweredby-mediawiki-white.svg",
+      "bytes": 15337,
+      "sha256": "606f1cb01ef8d3c2b1abbc41d4f4e31cccbb7dec86b8be9af5330c4f59853b6f",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/4e54216b61c8-load.php",
+      "source": "https://deadlock.wiki/load.php?format=original&image=fullScreen&variant=invert&modules=oojs-ui.styles.icons-media&skin=vector",
+      "bytes": 260,
+      "sha256": "e71bf11dbea5fa06e2cec8bec47d99c7127e67108f0ec15fb4f98f7e2c4e0edf",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/bf32bd63d2ec-apple-touch-icon.png",
+      "source": "https://deadlock.wiki/resources/assets/logos/apple-touch-icon.png",
+      "bytes": 10470,
+      "sha256": "f5784c43daee81ba43dd629e190a5c12e987bf38138e90ebf0261f9c42ac4f3b",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/c7142d967397-favicon.svg",
+      "source": "https://deadlock.wiki/resources/assets/logos/favicon.svg",
+      "bytes": 6563,
+      "sha256": "c8156aaa7e3ec96ff22826ac6dfb702a3039c4fa946b94a495ef065709ed5a16",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/b9303d8efd15-30px-Rat_King.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Rat_King.png/30px-Rat_King.png",
+      "bytes": 3058,
+      "sha256": "b0597953a5a6dede888857863635b981365c0a6948c5a85874a551221d65676a",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/ff0830bcce8d-60px-Rat_King.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Rat_King.png/60px-Rat_King.png",
+      "bytes": 8433,
+      "sha256": "70836302e75e3aa074992cf6130b108694f055f273d02cea5044cf099ed0b8fb",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/b60979c029ac-30px-Baba.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Baba.png/30px-Baba.png",
+      "bytes": 3155,
+      "sha256": "73f840a8155edc2f78b66b4a6eec332ee4ba7757c4b5fed7fb88be09ef050561",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/93b5c2a8a029-60px-Baba.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Baba.png/60px-Baba.png",
+      "bytes": 8431,
+      "sha256": "4e168a816b01e7781da9d3da42cfd18481485d5126c9dd204b2d35c99b037f69",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/a4c1aee937f9-30px-Solomon.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Solomon.png/30px-Solomon.png",
+      "bytes": 2891,
+      "sha256": "f9deb5564c672eba0c57c002579a9b27c9eec09b683d6dab854fb7752a0a8678",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/22cec7332cfc-60px-Solomon.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Solomon.png/60px-Solomon.png",
+      "bytes": 7729,
+      "sha256": "cd1faff10f84b8c203f2b748b4a16672b1434fd26f17368752750802fc89c139",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/bd41efc31de0-30px-Deadman_Danny.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Deadman_Danny.png/30px-Deadman_Danny.png",
+      "bytes": 2801,
+      "sha256": "d7453bd559b842ec11fc9cf1e909fc9a5c4dd9a0475159b23e277df1f8b26a98",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/1f434c173fe4-60px-Deadman_Danny.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Deadman_Danny.png/60px-Deadman_Danny.png",
+      "bytes": 7307,
+      "sha256": "538b2290bc73e955a4d16dca92184c8b2d67c2cd3865fb851de42733a1d22637",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/c6011dad9991-30px-Violet.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Violet.png/30px-Violet.png",
+      "bytes": 3072,
+      "sha256": "724576980c6d131e4a73687932e21c72ab12c81a8dbf69df21183b47cf796d95",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/5009cb748732-60px-Violet.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Violet.png/60px-Violet.png",
+      "bytes": 8120,
+      "sha256": "3afcdf52902b88322345db7072d72103143bfb1e6fee86c525520b1c1dc77f49",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/1b2bd71bc17d-30px-Nurse_Harrow.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Nurse_Harrow.png/30px-Nurse_Harrow.png",
+      "bytes": 3086,
+      "sha256": "20d7c18971e093a843911009395b609127b805acbe3af97f5f150ebe78a2410b",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/801119024c68-60px-Nurse_Harrow.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Nurse_Harrow.png/60px-Nurse_Harrow.png",
+      "bytes": 8314,
+      "sha256": "1fa5798c49d3caa20bb2e7b0abb84772c12fc4ae2c3f666b48f077b493d5736d",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/19bdac7ef2ba-140px-Hero_Nav.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Hero_Nav.png/140px-Hero_Nav.png",
+      "bytes": 22208,
+      "sha256": "c04a7e6c9e748e7ee2182c142d4da85fd191bacb7bda38771d07d64e2d5ece86",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/16b47eb92b67-280px-Hero_Nav.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Hero_Nav.png/280px-Hero_Nav.png",
+      "bytes": 70766,
+      "sha256": "9646bdf0aebf7e4435124be04f202fa832d4ed90dab2e383e8d319f774dda8b6",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/1ea3e466a815-140px-Item_Nav.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Item_Nav.png/140px-Item_Nav.png",
+      "bytes": 21056,
+      "sha256": "b67a754b9f6224a3b70e6e443c1f50c800bc51b94c77e51f8315a4e28bde9a6d",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/a3eb16dffa36-280px-Item_Nav.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Item_Nav.png/280px-Item_Nav.png",
+      "bytes": 67052,
+      "sha256": "69b95b3bbd470f2a1e31a73cf12e03bebc69ec93dfa0d4c292db8c50cd8df2ae",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/3f0b11dc5b40-140px-Mechanics_Nav.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Mechanics_Nav.png/140px-Mechanics_Nav.png",
+      "bytes": 29157,
+      "sha256": "6b627c1bd227ed457d3c984dd95b0e87e48a151fe4efd4a9c29f4fed3b40b9c8",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/e50a5a985ad1-280px-Mechanics_Nav.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Mechanics_Nav.png/280px-Mechanics_Nav.png",
+      "bytes": 87796,
+      "sha256": "1deaf4414cd41548ee7907407cd7d166c08d3a84733c326c90749ea552b47039",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/7e561845c8da-140px-Updates_Nav.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Updates_Nav.png/140px-Updates_Nav.png",
+      "bytes": 11466,
+      "sha256": "322e3c778d7bb93a1c1903d90af3c649687e0cce08309d0c681d8282752ff545",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/e2b68cd1facd-280px-Updates_Nav.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Updates_Nav.png/280px-Updates_Nav.png",
+      "bytes": 32143,
+      "sha256": "ae5b90c9baa0503cf5f36b4cd138fed802202c852544bfb9d5317251eda4e54e",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/38d19569e73d-140px-Map_Nav.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Map_Nav.png/140px-Map_Nav.png",
+      "bytes": 22192,
+      "sha256": "d09cabc2c216cd737268a2fe16bee636533a03f92cefe2010ff8ad6fff5d6702",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/f0110fb22ccb-280px-Map_Nav.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Map_Nav.png/280px-Map_Nav.png",
+      "bytes": 65734,
+      "sha256": "7d3f3eba44d2664136f3354579dfad517805733ab79916dd5b682a1820064f16",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/321e99fd3a2c-140px-Lore_Nav.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Lore_Nav.png/140px-Lore_Nav.png",
+      "bytes": 21482,
+      "sha256": "625c9f644bf765e09f27929bb7ddadeff661bf4584b84a7c79939b6e8c1a1d27",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/f599b9664a6a-280px-Lore_Nav.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Lore_Nav.png/280px-Lore_Nav.png",
+      "bytes": 67201,
+      "sha256": "9816d20261cd8174ed52228b88133ea713aab19f78dd48a1622250a4358b52d0",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/664fc4715745-140px-Brawl_Nav.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Brawl_Nav.png/140px-Brawl_Nav.png",
+      "bytes": 24811,
+      "sha256": "d02925a7a19a73ef2a3aa64c4ff180134a7219e1794e50e47c38636000844b54",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/9bc506a4a4e7-280px-Brawl_Nav.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Brawl_Nav.png/280px-Brawl_Nav.png",
+      "bytes": 75773,
+      "sha256": "99d8aa79bda23c0e7815268b8cb07b9a2c6a57a71c20ea99be585e14bda838f5",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/7993099bbfc6-140px-Movement_Nav.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Movement_Nav.png/140px-Movement_Nav.png",
+      "bytes": 11636,
+      "sha256": "9020152f4a895d87101d66101276ebd0871468840ea4900a28125fee3d1a6ca8",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/79225366e6e3-280px-Movement_Nav.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Movement_Nav.png/280px-Movement_Nav.png",
+      "bytes": 28512,
+      "sha256": "4299079034ba7c9aad4b8b93153694fc42b0c1711e90db177f16cdaf1ee07c65",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/60749de6f41d-20px-Nurse_Harrow.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Nurse_Harrow.png/20px-Nurse_Harrow.png",
+      "bytes": 1910,
+      "sha256": "41049f237f01d46cf88a316b03465eb32013cab17d20da8d3ef87755ae8cb2ce",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/24e8049834c7-40px-Nurse_Harrow.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Nurse_Harrow.png/40px-Nurse_Harrow.png",
+      "bytes": 4584,
+      "sha256": "a65e6550828be011df394ecd61df1566900c4ccb7d0a708c828a9b64131acd24",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/e6f5f0180bb8-20px-Wretched_Vapors.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Wretched_Vapors.png/20px-Wretched_Vapors.png",
+      "bytes": 1044,
+      "sha256": "a99294d64e2040ab72460836a0f3ef7d199f23a353886315f9067d3d36228e29",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/9a90cf225de4-40px-Wretched_Vapors.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Wretched_Vapors.png/40px-Wretched_Vapors.png",
+      "bytes": 1828,
+      "sha256": "6d344dd9e1d8235cc44c8fcd86fa837ae771f7a68149a0ed52ec6a15d9e2e9c2",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/960f6519668e-20px-Victor.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Victor.png/20px-Victor.png",
+      "bytes": 1781,
+      "sha256": "c6ca28a3eb79a8405d9d0d07f3795700d4714d6c5384c7fd197f817b91627e13",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/b331e5fee889-40px-Victor.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Victor.png/40px-Victor.png",
+      "bytes": 3991,
+      "sha256": "d6f0df9102ad2ab423b5e341d065e518a49ef7bde09d5ac3b888c4cfb0f110ba",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/fb8cfd2ece05-20px-Jumpstart.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Jumpstart.png/20px-Jumpstart.png",
+      "bytes": 1035,
+      "sha256": "d178871684618b052b35830fbddb39ea3c0d8f111f92eb5d614d18e796a9aa1e",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/d7b67098bfe7-40px-Jumpstart.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Jumpstart.png/40px-Jumpstart.png",
+      "bytes": 1770,
+      "sha256": "3003ca148f8789a2dad6dfd10c571b830f933a74a6fd8f65b5a77e23fde1c407",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/c94bd10fd362-20px-Blood_Tribute.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Blood_Tribute.png/20px-Blood_Tribute.png",
+      "bytes": 1379,
+      "sha256": "b7462853c2d9aada8f3ff7505cf5c363be570fbeb18af6f20491c6e2d51bbd14",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/2af6c080fcdf-40px-Blood_Tribute.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Blood_Tribute.png/40px-Blood_Tribute.png",
+      "bytes": 2393,
+      "sha256": "fc4c461cc45db1d46b5471e53d332ea094e30ac53837e026b5c6f265b0549e83",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/5f9f81be0665-20px-Lurking_Terrors.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Lurking_Terrors.png/20px-Lurking_Terrors.png",
+      "bytes": 1103,
+      "sha256": "f29c232a492dd8b14204630be4fa99286466b680049050de72faee7a4afc7faf",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/6381cdce0078-40px-Lurking_Terrors.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Lurking_Terrors.png/40px-Lurking_Terrors.png",
+      "bytes": 2087,
+      "sha256": "57895f89db00096ba42478112150094a86c35edca9574c89a41db03e900834e8",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/134fb78ddf92-20px-Shocking_Reanimation.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Shocking_Reanimation.png/20px-Shocking_Reanimation.png",
+      "bytes": 1098,
+      "sha256": "3625a4bb87adbfc09342f6cf021db9afa8ada7d15068d62df6ccb75bafefccd5",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/3e30a070c91b-40px-Shocking_Reanimation.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Shocking_Reanimation.png/40px-Shocking_Reanimation.png",
+      "bytes": 1933,
+      "sha256": "3c8c1a97b668cba1ee9336a4d2af1093dbfac18bb63719c328afd3925cd80fcb",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/e48092267cb2-CityNeverSleepsSteam.png",
+      "source": "https://cdn.deadlock.wiki/CityNeverSleepsSteam.png",
+      "bytes": 454413,
+      "sha256": "e4d0f4259caf963b286559b254764ac0aeaadfaefdbd51cf5c4c263a0dc0e0ff",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/0f26f0c35483-Card_backer.png",
+      "source": "https://cdn.deadlock.wiki/Card_backer.png",
+      "bytes": 1704,
+      "sha256": "0b3764bbcd3db0e659c09e8efcf26e3b980aa389654dfc6560f38ea4aa82a558",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/2a0c0695736c-Herolabs_icon_backer.png",
+      "source": "https://cdn.deadlock.wiki/Herolabs_icon_backer.png",
+      "bytes": 2129,
+      "sha256": "c3e285a8fb97ff6593e0face51445b97829f843e6b476b2a38cc6e5485a967bb",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/a1a38c024c08-Card_border.png",
+      "source": "https://cdn.deadlock.wiki/Card_border.png",
+      "bytes": 2292,
+      "sha256": "d7e4987a709bdc26773a9b01b63c890a1d97d560737350ac3e560f24d0dc4ceb",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/a2df8b5c726d-74px-Abrams_vertical.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Abrams_vertical.png/74px-Abrams_vertical.png",
+      "bytes": 19892,
+      "sha256": "ca6e1870e87cdab97f16d8f8a4137b202a2d012a48d2ab515087f6f32cce2e46",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/e67e86b27e1a-Abrams_vertical.png",
+      "source": "https://cdn.deadlock.wiki/Abrams_vertical.png",
+      "bytes": 39938,
+      "sha256": "9bbf0271339517f50bd99e0ae406061290db1e8994ad9cb9a1e61894ab88a78d",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/28188b516edd-74px-Apollo_vertical.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Apollo_vertical.png/74px-Apollo_vertical.png",
+      "bytes": 18978,
+      "sha256": "b0aebb9164e6325631be6d4d38b01b8c80c89d93e5b577a8cd8d5f13129b7a9f",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/57bbc9d62415-Apollo_vertical.png",
+      "source": "https://cdn.deadlock.wiki/Apollo_vertical.png",
+      "bytes": 37205,
+      "sha256": "3f18521e0b2dd805ecb4c384d6e3e51107a5d5ba1c7042418a34fe8c6749a3a4",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/f0657af83ad8-74px-Baba_vertical.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Baba_vertical.png/74px-Baba_vertical.png",
+      "bytes": 21772,
+      "sha256": "8df993928ba22e35dfa0b7273add5630660da99e910b41221e4ec58c81b38d95",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/d288e8b71940-Baba_vertical.png",
+      "source": "https://cdn.deadlock.wiki/Baba_vertical.png",
+      "bytes": 47126,
+      "sha256": "8b343eb15eef3f0ea5660dd9d961b2266f6274406d74893709067c339c513117",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/774375c6157b-74px-Bebop_vertical.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Bebop_vertical.png/74px-Bebop_vertical.png",
+      "bytes": 20202,
+      "sha256": "6b9b314d1902b979df7a3e6bfff4624a7f867a1ada26d215d4b641524856a79b",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/2451dfb80073-Bebop_vertical.png",
+      "source": "https://cdn.deadlock.wiki/Bebop_vertical.png",
+      "bytes": 41769,
+      "sha256": "d802e3952980ebcde4b428f0faaa7079422b6816dd2cf7ccfe1b407e1e5eae3d",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/0ffe673c5dec-74px-Billy_vertical.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Billy_vertical.png/74px-Billy_vertical.png",
+      "bytes": 22561,
+      "sha256": "fd87fd8541bdc1e6696c75b7b9fbf49bc134f02fb607638fff0e237f44a65fd7",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/d12c0368a26f-Billy_vertical.png",
+      "source": "https://cdn.deadlock.wiki/Billy_vertical.png",
+      "bytes": 48401,
+      "sha256": "2208dc7896e6c03874843320f496db437caac6ae24c96161163aeffad549676a",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/a9c7df77d2ce-74px-Calico_vertical.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Calico_vertical.png/74px-Calico_vertical.png",
+      "bytes": 22245,
+      "sha256": "7f3bd13906926655fc1bb1d97353dcba90a5728f9d868b50d834393b229cf59e",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/1cd6d9a5c980-Calico_vertical.png",
+      "source": "https://cdn.deadlock.wiki/Calico_vertical.png",
+      "bytes": 47289,
+      "sha256": "d689ace5e4a75d3f28c339f0c36e4d0f79dcc3720681174a227b24d7332ae472",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/1714a49e1c85-74px-Celeste_vertical.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Celeste_vertical.png/74px-Celeste_vertical.png",
+      "bytes": 24641,
+      "sha256": "01a78630a5b80fbe49e78c3b5c15a19d9562b8c6be27cc3ec9d77541931d16e3",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/0380613ac0ac-Celeste_vertical.png",
+      "source": "https://cdn.deadlock.wiki/Celeste_vertical.png",
+      "bytes": 56491,
+      "sha256": "ef896be157c3f6b4c98a7b69cfe8d1f4d08229fdcd65a5684a6433a8092b24fe",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/24df0461bc54-74px-Deadman_Danny_vertical.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Deadman_Danny_vertical.png/74px-Deadman_Danny_vertical.png",
+      "bytes": 21741,
+      "sha256": "0a7aced0f796ca1383dab54868192984ce59fbdd0926187b1713d4cdb13da5c4",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/ae37b976360f-Deadman_Danny_vertical.png",
+      "source": "https://cdn.deadlock.wiki/Deadman_Danny_vertical.png",
+      "bytes": 46645,
+      "sha256": "35afe6502f25663afa87a03fb3fd4196a650ac60d167c0bfde7349b6957998eb",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/56fd34618d8a-74px-The_Doorman_vertical.png",
+      "source": "https://cdn.deadlock.wiki/thumb/The_Doorman_vertical.png/74px-The_Doorman_vertical.png",
+      "bytes": 21752,
+      "sha256": "4aaa2c5716a787b8a41cfd9a582d37c4e8a674178137ab004c35d4d25f2aaaba",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/f879add12d03-The_Doorman_vertical.png",
+      "source": "https://cdn.deadlock.wiki/The_Doorman_vertical.png",
+      "bytes": 51002,
+      "sha256": "d75a4bf2fa0603c81644d2946efa1f3653949df7a381fd4fade807ae372419e5",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/772762226536-74px-Drifter_vertical.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Drifter_vertical.png/74px-Drifter_vertical.png",
+      "bytes": 18634,
+      "sha256": "8c3d7a4bb91608a135e83f014e5b262d02a595d7d0ff9915c02611f98c4897d4",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/14e68b64d9e2-Drifter_vertical.png",
+      "source": "https://cdn.deadlock.wiki/Drifter_vertical.png",
+      "bytes": 39922,
+      "sha256": "dafaf199e900f31f9f1670096185cebacac444a92c96c4cbe1f6048c3a347f6f",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/2730749f6807-74px-Dynamo_vertical.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Dynamo_vertical.png/74px-Dynamo_vertical.png",
+      "bytes": 18762,
+      "sha256": "1747524a21fb7f2c8479dfb44f472d0dfbd696c7c15609b001e00b36c93307f4",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/5db5fb7e008f-Dynamo_vertical.png",
+      "source": "https://cdn.deadlock.wiki/Dynamo_vertical.png",
+      "bytes": 41105,
+      "sha256": "dd276cae66b11a1b9ccc4425c4bdac75010611334d81981a8ac3ff3af1791bf7",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/a079ae0ad715-74px-Graves_vertical.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Graves_vertical.png/74px-Graves_vertical.png",
+      "bytes": 21440,
+      "sha256": "8d19f725fff393269c600182451e5dfeea6a99e58f3136dd5508dd4b82c11736",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/79330d801178-Graves_vertical.png",
+      "source": "https://cdn.deadlock.wiki/Graves_vertical.png",
+      "bytes": 45024,
+      "sha256": "065447420cc48c328408480d315544209ead1eb27b666bfce48d954984ea8e9c",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/cc5462e75383-74px-Grey_Talon_vertical.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Grey_Talon_vertical.png/74px-Grey_Talon_vertical.png",
+      "bytes": 22816,
+      "sha256": "69a7ea52d62a0c3cea749bf2344b28c112c4fd4e22ae74bb594a2859f3b7b303",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/07d4366a7c1b-Grey_Talon_vertical.png",
+      "source": "https://cdn.deadlock.wiki/Grey_Talon_vertical.png",
+      "bytes": 51671,
+      "sha256": "858b8251d8feafd0b10ac5318c533b8f090c6aae1d57dd51f46e6aa76dbb0b44",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/375a2a6829d7-74px-Haze_vertical.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Haze_vertical.png/74px-Haze_vertical.png",
+      "bytes": 15131,
+      "sha256": "129b00a48fee79172bcf414e344eb0f8386109d80dcdec5923647f6fdd903d44",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/ba3c04028020-Haze_vertical.png",
+      "source": "https://cdn.deadlock.wiki/Haze_vertical.png",
+      "bytes": 29558,
+      "sha256": "eb0a082b23dae40e1cfec771e4e54a84b64e4a673752ed48b239b75aea152bf7",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/2840b216e92d-74px-Holliday_vertical.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Holliday_vertical.png/74px-Holliday_vertical.png",
+      "bytes": 20706,
+      "sha256": "66168ba50fd1598129135c6f4e928191a440f1d18fc56218fcf03ff0c166940f",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/a07c65ed1645-Holliday_vertical.png",
+      "source": "https://cdn.deadlock.wiki/Holliday_vertical.png",
+      "bytes": 45104,
+      "sha256": "a4e1546756c76fd85ef3ae731cf4fa4d39d3872ba7f6e30070d6123b60deee95",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/b46427cc22b7-74px-Infernus_vertical.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Infernus_vertical.png/74px-Infernus_vertical.png",
+      "bytes": 20288,
+      "sha256": "d129eab880ae17fb134df88dfb8d4bdfd639abd5b066234d6eee1e7ff7b16793",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/39df7e59711f-Infernus_vertical.png",
+      "source": "https://cdn.deadlock.wiki/Infernus_vertical.png",
+      "bytes": 42749,
+      "sha256": "41029c5cd651cb310ba4dc1cc6e0fb84b80ecc8ef56dfcf1bb12c63564b415be",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/dbb1d16a9d6a-74px-Ivy_vertical.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Ivy_vertical.png/74px-Ivy_vertical.png",
+      "bytes": 23048,
+      "sha256": "c54bdf6ac535f5c95e933cf9d7503776f211b006c2431dda6f82fa8baa72309e",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/47f99ebc9ab7-Ivy_vertical.png",
+      "source": "https://cdn.deadlock.wiki/Ivy_vertical.png",
+      "bytes": 50080,
+      "sha256": "7d7821e7a184134d467bc4e67bf682fe5f6a3fb2880a43ae0b66c674857e4ecb",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/9d171f472868-74px-Kelvin_vertical.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Kelvin_vertical.png/74px-Kelvin_vertical.png",
+      "bytes": 22593,
+      "sha256": "9fdaf84d3072e0445abff05cf3c590bbe0d5c1c31666095af1d089e6f92f25b3",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/a48a1a77b554-Kelvin_vertical.png",
+      "source": "https://cdn.deadlock.wiki/Kelvin_vertical.png",
+      "bytes": 51994,
+      "sha256": "764c66705c34ad69bd73548d4f1d7bb6de5998b4742d41a850667875fdb75adc",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/f5cf34a279f3-74px-Lady_Geist_vertical.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Lady_Geist_vertical.png/74px-Lady_Geist_vertical.png",
+      "bytes": 23086,
+      "sha256": "7c1775b0512e21e41be24231e4f26c569c998f69a954235466e48cc8e8d756d8",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/951c2dee7b3c-Lady_Geist_vertical.png",
+      "source": "https://cdn.deadlock.wiki/Lady_Geist_vertical.png",
+      "bytes": 53257,
+      "sha256": "a97be5eaf4a8ecb45a9010b06518946232d464bbf8da9bc0dffe979f31712551",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/b7518600ac5a-74px-Lash_vertical.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Lash_vertical.png/74px-Lash_vertical.png",
+      "bytes": 21030,
+      "sha256": "84458414bdd73476c20c5cfb7cd5cef7ce1d955913832f0818b28f877e3dce63",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/9a6c8549ac4f-Lash_vertical.png",
+      "source": "https://cdn.deadlock.wiki/Lash_vertical.png",
+      "bytes": 46956,
+      "sha256": "f46f86f17684b62cd4f4e8c4aecacb0d5228b2a25fb582c430b1d81d9f3a47c0",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/521bf724e1df-74px-McGinnis_vertical.png",
+      "source": "https://cdn.deadlock.wiki/thumb/McGinnis_vertical.png/74px-McGinnis_vertical.png",
+      "bytes": 22061,
+      "sha256": "2931f7a7ab88ab6a6da9ce24f6116d6b19a682a7116ab9b5f4a54d61a650d168",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/039da2e2993f-McGinnis_vertical.png",
+      "source": "https://cdn.deadlock.wiki/McGinnis_vertical.png",
+      "bytes": 48802,
+      "sha256": "675d767b50ebdac4caaae8ac009e172f47b381c67975fc5f78e4fbbce5882fb5",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/6f1752225c2c-74px-Mina_vertical.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Mina_vertical.png/74px-Mina_vertical.png",
+      "bytes": 20577,
+      "sha256": "59108b36b48ab5b613e0cd0ceaef00cea12ccbc5bf9e3972521124ff08992d5f",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/7aac199b3fc7-Mina_vertical.png",
+      "source": "https://cdn.deadlock.wiki/Mina_vertical.png",
+      "bytes": 43384,
+      "sha256": "c4879f6cb2ee5f4d67aa0a350c5a5cb59e959a1a192a534abfe0bfb3b5aa321b",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/fdfec323e49b-74px-Mirage_vertical.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Mirage_vertical.png/74px-Mirage_vertical.png",
+      "bytes": 20163,
+      "sha256": "18a8c0518e695e2c8dba7d2d9fd1d53bbccab1af7239c56b628881e7e9ee6cd6",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/bdf9f5d74a1d-Mirage_vertical.png",
+      "source": "https://cdn.deadlock.wiki/Mirage_vertical.png",
+      "bytes": 40861,
+      "sha256": "d0edc1b97b7683bde5419d5564c06dd19537af28c219dea8b41388f45501862d",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/0225c83aa9fd-74px-Mo___Krill_vertical.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Mo_%26_Krill_vertical.png/74px-Mo_%26_Krill_vertical.png",
+      "bytes": 21054,
+      "sha256": "98f4712fcc50a0654d04ac1ab76d434f4f9eceeeaf45bca0aa45bb0fb115acff",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/1092ec01c40c-Mo___Krill_vertical.png",
+      "source": "https://cdn.deadlock.wiki/Mo_%26_Krill_vertical.png",
+      "bytes": 47411,
+      "sha256": "21758c74081ede149fee1018043577eeee71fa971407a409a615dba6c0cbcd55",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/a1e9054e26a1-74px-Nurse_Harrow_vertical.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Nurse_Harrow_vertical.png/74px-Nurse_Harrow_vertical.png",
+      "bytes": 21945,
+      "sha256": "35a2878b046c2408602dca6fa2144fc5b601d99a206ea01948d20157c9889ba1",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/8f5922659724-Nurse_Harrow_vertical.png",
+      "source": "https://cdn.deadlock.wiki/Nurse_Harrow_vertical.png",
+      "bytes": 44198,
+      "sha256": "15570495874b3544458505d962fc86b6b977cfa03cccbb06fc8cf7cd5c44df1a",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/78b65661ce09-74px-Paige_vertical.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Paige_vertical.png/74px-Paige_vertical.png",
+      "bytes": 24352,
+      "sha256": "1ac4bbb1c5855ab5fe8835319f1f8ac451fe97a10f537acc3b2a94a31ff9cc30",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/1c2ff81740d3-Paige_vertical.png",
+      "source": "https://cdn.deadlock.wiki/Paige_vertical.png",
+      "bytes": 54077,
+      "sha256": "8fabb52006bb37320c407c4898cbfa328a26d8ce74a19ca051aa64d2b5ca5073",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/9028fb2b30d8-74px-Paradox_vertical.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Paradox_vertical.png/74px-Paradox_vertical.png",
+      "bytes": 19457,
+      "sha256": "e4be0e6a727cf17fd8a0d0bb8454887dcb09a48336ada4a42d2b2bb399820ce7",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/7a15987b85a9-Paradox_vertical.png",
+      "source": "https://cdn.deadlock.wiki/Paradox_vertical.png",
+      "bytes": 40047,
+      "sha256": "73d68a1772fe6719e310a6252583bdbfba4429074da99b83c7dc864de743c48b",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/717055562f19-74px-Pocket_vertical.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Pocket_vertical.png/74px-Pocket_vertical.png",
+      "bytes": 19786,
+      "sha256": "2bdde6dab160cb3c8ba3dfb6ed5a113dbb49d12208c30d518e91681b04aed023",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/773c1e5f6951-Pocket_vertical.png",
+      "source": "https://cdn.deadlock.wiki/Pocket_vertical.png",
+      "bytes": 42336,
+      "sha256": "cc43421667042f2e6d651866057131419e5a9f7a35c05150b3c4f08b1f456d38",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/1b0b9086d24b-74px-Rat_King_vertical.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Rat_King_vertical.png/74px-Rat_King_vertical.png",
+      "bytes": 23003,
+      "sha256": "e9621f3ce6a68369d2f684282ee2b91473ef0a6405b11484303cbdd9167b4d49",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/25653f81461c-Rat_King_vertical.png",
+      "source": "https://cdn.deadlock.wiki/Rat_King_vertical.png",
+      "bytes": 51069,
+      "sha256": "acb0e7052dbf7203c56ccc282d2c68759030d066251b46f692b4f4b1bd25edd9",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/a588820f24a8-74px-Rem_vertical.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Rem_vertical.png/74px-Rem_vertical.png",
+      "bytes": 20515,
+      "sha256": "98750856ca2e79670e2aceba7b6fad4177322dbc8be9a127085d5ba1fede7edb",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/80924e08ec02-Rem_vertical.png",
+      "source": "https://cdn.deadlock.wiki/Rem_vertical.png",
+      "bytes": 42504,
+      "sha256": "036d9874a4a580573fe5eee7f8fed74e7a479fdd3ef9ed9c84ae7051d02a4538",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/6a1a57dfc7c4-74px-Seven_vertical.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Seven_vertical.png/74px-Seven_vertical.png",
+      "bytes": 21744,
+      "sha256": "0dabbf5e8fb89e0e92d8a1af842495c8dc09a1316b1726a2f9eb6d8e5ed8968e",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/499ee19ce605-Seven_vertical.png",
+      "source": "https://cdn.deadlock.wiki/Seven_vertical.png",
+      "bytes": 46819,
+      "sha256": "4bed926d96c9125ad6c17f79fbf8b0505c89ee646b9d57149c1a930a4766e914",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/aee0d165733e-74px-Shiv_vertical.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Shiv_vertical.png/74px-Shiv_vertical.png",
+      "bytes": 20608,
+      "sha256": "ed83064e49370d5051cbbfd9301ed8c929d12c9c7847434fcb3f7111b7c304af",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/4f44b3fe0f2f-Shiv_vertical.png",
+      "source": "https://cdn.deadlock.wiki/Shiv_vertical.png",
+      "bytes": 45323,
+      "sha256": "80fc4f1bf72ba7b434b653d95972b1240aaf7cbaf95fd14c60db6353587fe6c6",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/c06b93127963-74px-Silver_vertical.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Silver_vertical.png/74px-Silver_vertical.png",
+      "bytes": 21500,
+      "sha256": "d1d263a65a9ced020904364e826cc01ce12a0b95fe24bf33ebfeddb770571dc1",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/f0ba7d6c3989-Silver_vertical.png",
+      "source": "https://cdn.deadlock.wiki/Silver_vertical.png",
+      "bytes": 48589,
+      "sha256": "5ca039b2005ab6aa5baf514722d397d12e1f25a1091ad633dc282f9c8d83d707",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/a3c9d4e8f9e1-74px-Sinclair_vertical.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Sinclair_vertical.png/74px-Sinclair_vertical.png",
+      "bytes": 15586,
+      "sha256": "ac723756a8a424a6e420d29e9a056eaa939124f234a7acc81044ee6817faaff8",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/69a2f8e7e261-Sinclair_vertical.png",
+      "source": "https://cdn.deadlock.wiki/Sinclair_vertical.png",
+      "bytes": 28751,
+      "sha256": "d756f17ba02b3d242b50a3f2ea49f1d190d027b8b84269ca6b9579e7cff5e6d3",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/a10a4e924cf5-74px-Solomon_vertical.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Solomon_vertical.png/74px-Solomon_vertical.png",
+      "bytes": 23488,
+      "sha256": "ad90ed476088cfe025b2fd6cb9c7142f12439ec0bbd9a20437081538cce978a5",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/f0a6bc1a440b-Solomon_vertical.png",
+      "source": "https://cdn.deadlock.wiki/Solomon_vertical.png",
+      "bytes": 49316,
+      "sha256": "a78ecd5c6cd91c0497f8a487dcd302279cfa5a177a884191c1f63012dc483e78",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/90459cc3f186-74px-Venator_vertical.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Venator_vertical.png/74px-Venator_vertical.png",
+      "bytes": 23580,
+      "sha256": "add80767e2baf7337e625b0bc0db171871126581d88f75b2734957bd59a2a83b",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/6288a3d16d66-Venator_vertical.png",
+      "source": "https://cdn.deadlock.wiki/Venator_vertical.png",
+      "bytes": 50352,
+      "sha256": "2e101e8e677f7a698cc9882aa8f62438993860793d4a4d18955f66bf5c7e47ca",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/43fd780e083d-74px-Victor_vertical.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Victor_vertical.png/74px-Victor_vertical.png",
+      "bytes": 21023,
+      "sha256": "450f33ab498f4d4d028a6bb7e6ac7d68281cc5fec0ff4d5a155499598456a17f",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/483f7e29e083-Victor_vertical.png",
+      "source": "https://cdn.deadlock.wiki/Victor_vertical.png",
+      "bytes": 44635,
+      "sha256": "8aadfc4b0ae3a3ae6574e1d58ab33501ccf70859c6047386a6d3c396caa7c904",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/54ecac94b79d-74px-Vindicta_vertical.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Vindicta_vertical.png/74px-Vindicta_vertical.png",
+      "bytes": 22330,
+      "sha256": "5f4ebffbfa4db52b83b689f281e7d2090dbe3d8bbd725995f88a4b7ed9addf5a",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/985fc744717c-Vindicta_vertical.png",
+      "source": "https://cdn.deadlock.wiki/Vindicta_vertical.png",
+      "bytes": 50860,
+      "sha256": "6deffdf04682392384af5a401a39c01102d11aaa5f513ce8052199812f372b12",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/51c56b04c244-74px-Violet_vertical.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Violet_vertical.png/74px-Violet_vertical.png",
+      "bytes": 20751,
+      "sha256": "d8b7024923f83123e85b82c44adac166bb278302186ccb6e9d01b5560b4e76d1",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/3f40f1610020-Violet_vertical.png",
+      "source": "https://cdn.deadlock.wiki/Violet_vertical.png",
+      "bytes": 42194,
+      "sha256": "654fdd5070e0910b637cc19055a01014772d6979be34ab902d3f50a0de7143fd",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/f9b8988b4499-74px-Viscous_vertical.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Viscous_vertical.png/74px-Viscous_vertical.png",
+      "bytes": 11668,
+      "sha256": "3d4f54c87801068f817823ba9f56f8e294e47473447dd307ce03eafd75a65b05",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/75f510eac68c-Viscous_vertical.png",
+      "source": "https://cdn.deadlock.wiki/Viscous_vertical.png",
+      "bytes": 18278,
+      "sha256": "3b10905561b46600c16dbb535c71b9d605eafc7f9b6504aabc393d213c8b1bbe",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/7bedac39231a-74px-Vyper_vertical.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Vyper_vertical.png/74px-Vyper_vertical.png",
+      "bytes": 19144,
+      "sha256": "64f4f050279b8bea9af10debbc8e503fead87338fded2cfa3e2b6b4f7fe7e062",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/745a1422c508-Vyper_vertical.png",
+      "source": "https://cdn.deadlock.wiki/Vyper_vertical.png",
+      "bytes": 38136,
+      "sha256": "3928bc8b0bf417c360402fd0eda185daa8a227167e7ed89dccdc2bb10c1b413e",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/cd21fb988791-74px-Warden_vertical.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Warden_vertical.png/74px-Warden_vertical.png",
+      "bytes": 22255,
+      "sha256": "41737d64deff7def13c29571e4113a4e74153f4607f3355c5a9f71f801969fd4",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/02b44578303d-Warden_vertical.png",
+      "source": "https://cdn.deadlock.wiki/Warden_vertical.png",
+      "bytes": 47649,
+      "sha256": "e67c5b91162a40af5d0389bdfbbe53cbd3d282523839db948953f2eca2835da8",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/7d8d84d768eb-74px-Wraith_vertical.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Wraith_vertical.png/74px-Wraith_vertical.png",
+      "bytes": 21110,
+      "sha256": "e36075e4857d894e13854d49d9f0fe26ec18857456fdeea0b5237af8b94f4b82",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/1d6ef43b01ac-Wraith_vertical.png",
+      "source": "https://cdn.deadlock.wiki/Wraith_vertical.png",
+      "bytes": 44332,
+      "sha256": "ef23e00cfd2b4e22f43979b0fd3564405bdff9054e402eeafd91e60705f2e311",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/633cb3a6f508-74px-Yamato_vertical.png",
+      "source": "https://cdn.deadlock.wiki/thumb/Yamato_vertical.png/74px-Yamato_vertical.png",
+      "bytes": 20012,
+      "sha256": "c853f78b12152f138c4c3ec3bfea1ca5c3b4b49dce787f82547dc022a3774059",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/e470ee9e60f9-Yamato_vertical.png",
+      "source": "https://cdn.deadlock.wiki/Yamato_vertical.png",
+      "bytes": 41626,
+      "sha256": "62b4295489c5c003c0aaf9ab778df1bcd760c4da815b9c6d07d7e80c850ed5fc",
+      "status": "downloaded"
+    },
+    {
+      "path": "assets/f52669e22abe-cc-by-sa.png",
+      "source": "https://deadlock.wiki/resources/assets/licenses/cc-by-sa.png",
+      "bytes": 1377,
+      "sha256": "db7a96c486bfa58eca4a4b31a8333d8059509e247eec0a9e065347af93c62ec7",
+      "status": "downloaded"
+    }
+  ]
+}

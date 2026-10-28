@@ -1,57 +1,44 @@
-# Website verification
+# Wiki UI redesign verification
 
-Verified on 27 October 2026 (Asia/Bangkok).
+Local verification: 28 October 2026 (Asia/Bangkok).
 
-- Public website: https://saltylem0n.github.io/deadlock-early-game/
-- Repository: https://github.com/SaltyLem0n/deadlock-early-game
-- Publishing source: `main`, repository root, GitHub Pages branch publishing.
-- Application revision verified: `a54d94e359ce418d8d263d34a1504a4c00fbc5b8`.
+## Scope and preservation
 
-## Content and scope
+The seven research sections, formal title, 5/10/15-minute study design, player-soul analysis, conditional third classifier, 12 references and two downloads are preserved. Names and student IDs remain omitted. Research data, model results, final research code, final paper and slides remain pending.
 
-All seven required sections are present: Home, Problem, Data, Method, Progress log, Results, and Files & references. The formal research title is preserved. Team names and IDs are omitted as requested by the user on 27 October 2026.
+An automated comparison confirmed that the existing research paragraphs, table cells and definitions in Problem through Files & references remain present, and the reference titles/URLs are unchanged. The proposal DOCX retains SHA-256 `306624dc481f8848a7f5cba602f331390828f6e96feb0fe11c5515c92e79f199`.
 
-The content distinguishes collection targets from collected counts, proposed models from trained models, and planned deliverables from available files. The third-classifier requirement is explicit: XGBoost is conditional in the proposal and must be confirmed or replaced by M3. Results, final paper, slides, research code and dataset are honestly pending.
+All 242 files in the source extraction match their before-edit hashes. The four numbered stylesheets and 225 captured assets in the website match the source bytes. Git attributes preserve those vendor bytes during publication. Attribution and the original asset manifest are included.
 
-The bibliography contains 12 provider, official documentation and original-paper references checked during implementation. Internal citations target stable reference IDs.
+## Desktop and phone checks
 
-## Browser verification performed
+- Browser-tested widths: 320, 390, 768, 1024 and 1280 CSS pixels. No page-level horizontal overflow or cutoff-control overflow was observed.
+- The 1280 x 720 desktop composition uses the source background, original fonts, sidebar, tiles, panels and compact spacing. The content begins about 89px from the top, aligning with the extracted reference's header structure.
+- Default brown base and accent verified: `#241c16` and `#60f8b3`. Body font is Inter; headings use Valve Occult with source fallbacks. Navigation tile radii are 4px. Both active font files loaded and visible images rendered without broken sources.
+- Full-width switching changed the content width from about 948px to 1074px at the tested desktop viewport, then returned to constrained width. Both modes fit the page width.
+- Light/dark controls work with pointer, Enter and Space activation, and return to the default dark presentation.
+- The phone header remains available during scrolling. Section headings and the reference search remain below it. The menu closes after selection and on Escape, returning focus appropriately.
+- All seven sidebar links produce the expected fragment and section focus. Active navigation and the keyboard skip link work.
+- Keyboard ArrowRight moved the wide data table's horizontal scroll position, with scrolling contained inside the table region.
 
-- Desktop rendering observed at 1440 x 1000 locally and 1552 pixels wide on the public site.
-- Phone rendering observed at 390 x 844 and 320 x 740 locally; public phone rendering and controls also verified at a measured CSS viewport width of 434 pixels.
-- No page-level horizontal overflow at the verified narrow widths. Wide tables remain inside horizontally scrollable regions. A cutoff-control overflow at 320 pixels was fixed and rechecked.
-- All seven navigation links were activated on the public site; each produced the expected URL fragment and section focus.
-- Active section tracking was corrected and verified. The keyboard skip link moves focus to `main`.
-- Mobile menu opening, closing after selection, Escape dismissal and focus return were verified.
-- The 5-, 10- and 15-minute controls update the explanation. Enter and Space activation were verified.
-- Reference search, form submission, clear/reset, no-match feedback and restoration of a filtered-out citation target were verified. Public search for XGBoost displayed one of 12 references.
-- CRT controls toggle scanlines, with `pointer-events: none`, and retain the preference after reload. Default effects are off.
-- Both bundled fonts loaded. Images rendered without broken sources. Computed border radii were zero.
-- The final public page used the requested parchment background and exact primary ink colour.
+## Project interactions
 
-Reduced-motion support was checked in the implementation: the media query suppresses animation and scanlines, and JavaScript disables the effects control when `prefers-reduced-motion: reduce` matches. That preference was not emulated in the browser.
+- 5-, 10- and 15-minute explanations change correctly using pointer, Enter and Space activation.
+- Header reference search forwards its query to the bibliography, focuses its input and displays matching results.
+- Bibliography filtering, form submission, no-match feedback and clear/reset work. Searching XGBoost displays one of 12 references. Clearing also clears the header query.
+- Following an internal citation restores a reference hidden by a prior search.
+- No backend-only account/edit controls, copied wiki activity/news, hero directory or CRT controls are presented as project features.
 
-## Downloads and publication
+## Accessibility and structural checks
 
-GitHub reported a successful Pages build for the verified application revision. Anonymous HTTP requests to all 21 referenced local assets, page/script/style files and downloads returned HTTP 200 and matched the local source (normalizing Git text line endings where applicable).
+- Sampled text contrast meets 4.5:1 in both modes: minimum 6.29:1 in dark mode and 4.86:1 in light mode across the checked body, caption, card, metadata, reference and link samples. This is a scoped contrast check, not a full accessibility certification.
+- Visible keyboard focus, native controls, labeled searches, live filter counts, table captions and semantic headings are present.
+- Reduced-motion CSS suppresses inherited animation/transition effects. The preference was inspected in code, not emulated in the browser.
+- JavaScript passes `node --check`. Local anchor, file and stylesheet-asset targets resolve; there are no duplicate IDs.
+- The browser console contained no warnings or errors during the recorded local checks.
 
-The public page opened in a browser without a login prompt. All links use relative paths for the project's `/deadlock-early-game/` prefix.
+## Publication and downloads
 
-The in-app browser downloaded both files successfully. Their saved copies matched the source bytes:
+Pending the redesign's public deployment and final download verification. The existing public destination is https://saltylem0n.github.io/deadlock-early-game/ and repository is https://github.com/SaltyLem0n/deadlock-early-game.
 
-| File | SHA-256 |
-| --- | --- |
-| Proposal DOCX | `306624dc481f8848a7f5cba602f331390828f6e96feb0fe11c5515c92e79f199` |
-| Research design notes | `2beeefb2eaecf42195f5ac5f94f1c2829d0c2de8d6ad8773c37aaf587600f9ef` |
-
-Brave's automation download-capture calls timed out; the successful in-app downloads and byte comparisons provide the download verification.
-
-## Structural and accessibility checks
-
-- JavaScript passed `node --check`.
-- Authored changes passed `git diff --check`.
-- No duplicate HTML IDs or missing local anchor/file targets were found.
-- Primary ink contrast: 8.13:1 on parchment, 6.83:1 on wax, and 5.48:1 on amber.
-- Native links and buttons, visible focus indicators, labeled search, table captions, live result counts, and reduced-motion handling are implemented.
-
-This is a website verification record. It does not establish dataset validity, model performance, research reproducibility or completion of the final academic deliverables.
+This record verifies the website, not completion of the academic research or experimental validity.
