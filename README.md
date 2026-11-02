@@ -27,7 +27,7 @@ The earlier terminal styling, pixel fonts and CRT controls have been removed. Tw
 
 ## Research integrity
 
-Keep the exact formal title. The homepage lists the project team with student ID first, sorted by ascending ID: 6704917 Sutee Fufuang; 6709003 Kawiwit Laowirakun; 6807558 Phollapat Rodchue. Update the last-updated date only after actual content changes, using Asia/Bangkok. Progress entries need a real date and done/stuck/next evidence.
+Keep the exact formal title. The project team is PisedSaikai. The homepage lists members with student ID first, sorted by ascending ID: 6704917 Sutee Fufuang; 6709003 Kawiwit Laowirakun; 6807558 Phollapat Rodchue. Update the last-updated date only after actual content changes, using Asia/Bangkok. Progress entries need a real date and done/stuck/next evidence.
 
 Do not replace pending dataset, results, final-paper, slides or research-code states without verified artifacts. The course requires at least three classifiers; XGBoost remains conditional in the proposal until confirmed or replaced. Keep reference IDs stable because citations link to them. If references change, update the visible bibliography count and its checked date only after actual verification.
 

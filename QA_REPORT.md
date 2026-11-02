@@ -8,7 +8,7 @@ Application revision verified: `25a0172ab060a242077387036e917422fb738ebe`. Later
 
 ### Team update — 2 November 2026
 
-Added the user-supplied team to the homepage, with IDs before names and ascending ID order: 6704917 Sutee Fufuang; 6709003 Kawiwit Laowirakun; 6807558 Phollapat Rodchue. Updated both website update dates. The cards display in three columns at 1280px and one column at 390px; browser checks found no page-level horizontal overflow. Source verification confirmed the exact spellings, IDs and order, and `git diff --check` passed. The checks below document the original redesign.
+Added the user-supplied team, PisedSaikai, to the homepage, with IDs before names and ascending ID order: 6704917 Sutee Fufuang; 6709003 Kawiwit Laowirakun; 6807558 Phollapat Rodchue. Updated both website update dates. The cards display in three columns at 1280px and one column at 390px; browser checks found no page-level horizontal overflow. Source verification confirmed the exact spellings, IDs and order, and `git diff --check` passed. The checks below document the original redesign.
 
 The seven research sections, formal title, 5/10/15-minute study design, player-soul analysis, conditional third classifier, 12 references and two downloads are preserved. Names and student IDs were omitted at the original review; see the subsequent team update above. Research data, model results, final research code, final paper and slides remain pending.
 
