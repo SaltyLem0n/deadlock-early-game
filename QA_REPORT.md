@@ -6,7 +6,11 @@ Application revision verified: `25a0172ab060a242077387036e917422fb738ebe`. Later
 
 ## Scope and preservation
 
-The seven research sections, formal title, 5/10/15-minute study design, player-soul analysis, conditional third classifier, 12 references and two downloads are preserved. Names and student IDs remain omitted. Research data, model results, final research code, final paper and slides remain pending.
+### Team update — 2 November 2026
+
+Added the user-supplied team to the homepage, with IDs before names and ascending ID order: 6704917 Sutee Fufuang; 6709003 Kawiwit Laowirakun; 6807558 Phollapat Rodchue. Updated both website update dates. The cards display in three columns at 1280px and one column at 390px; browser checks found no page-level horizontal overflow. Source verification confirmed the exact spellings, IDs and order, and `git diff --check` passed. The checks below document the original redesign.
+
+The seven research sections, formal title, 5/10/15-minute study design, player-soul analysis, conditional third classifier, 12 references and two downloads are preserved. Names and student IDs were omitted at the original review; see the subsequent team update above. Research data, model results, final research code, final paper and slides remain pending.
 
 An automated comparison confirmed that the existing research paragraphs, table cells and definitions in Problem through Files & references remain present, and the reference titles/URLs are unchanged. The proposal DOCX retains SHA-256 `306624dc481f8848a7f5cba602f331390828f6e96feb0fe11c5515c92e79f199`.
 
