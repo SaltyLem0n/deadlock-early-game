@@ -67,9 +67,9 @@ document.fonts.ready.then(updateHeaderHeight);
 updateHeaderHeight();
 
 const stages = {
-  '5': ['Minute 5 · early economy', "Use only samples recorded at or before 05:00. Compare early team differences with each player's available soul history, growth, team share, and within-team spread."],
-  '10': ['Minute 10 · developing advantage', "Use only samples recorded at or before 10:00. Compare team-only inputs with team inputs plus player soul progression. Keep the same eligible matches and chronological split as the other stages."],
-  '15': ['Minute 15 · mid-game transition', "Use only samples recorded at or before 15:00. Study whether the later observable economy and its distribution improve prediction. The common cohort excludes matches ending by this cutoff."]
+  '3': ['Minute 3 · first observed snapshot', 'Use observations at or before 03:00. Compare team stats with player soul totals, shares, and spread. Growth requires an earlier observation, which the sampled feed lacks.'],
+  '9': ['Minute 9 · developing advantage', 'Use observations at or before 09:00. Compare player features with and without growth on the same matches. Calculate growth from earlier observations for the same player.'],
+  '15': ['Minute 15 · mid-game transition', 'Use observations at or before 15:00. Compare player features with and without growth. The common cohort contains matches lasting beyond this cutoff.']
 };
 document.querySelectorAll('[data-cutoff]').forEach((button) => {
   button.addEventListener('click', () => {
