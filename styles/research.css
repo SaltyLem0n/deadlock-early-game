@@ -1,4 +1,13 @@
 /* Project adaptations. The four extracted stylesheets remain unchanged. */
+/* Pin the wiki's brown hues so the extracted relative colors retain their tint. */
+:root[data-theme="brown"] {
+  --base: oklch(from #241c16 l c 58.7);
+  --background-color-base: #241c16;
+}
+:root[data-theme="brown"][data-mode="light"] {
+  --base: oklch(from #f5ede0 l c 80.1);
+  --background-color-base: #f5ede0;
+}
 html { scroll-behavior: auto; scroll-padding-top: 22px; }
 body.research-site { min-width: 0; --color-subtle: oklch(from var(--color-base) l c h / .75); }
 /* Slightly stronger project link contrast on the light theme's raised panels. */
